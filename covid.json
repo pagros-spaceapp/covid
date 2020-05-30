@@ -1,0 +1,5832 @@
+{
+  "objectIdFieldName" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "", 
+  "geometryType" : "esriGeometryPoint", 
+  "spatialReference" : {
+    "wkid" : 4326, 
+    "latestWkid" : 4326
+  }, 
+  "fields" : [
+    {
+      "name" : "Confirmed", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Confirmed", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Recovered", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Recovered", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Deaths", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Deaths", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Active", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Active", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Lat", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Lat", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Long_", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Long", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Country_Region", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Country/Region", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8000, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Province_State", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Province/State", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8000, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "Confirmed" : 3237, 
+        "Recovered" : 2063, 
+        "Deaths" : 404, 
+        "Active" : 770, 
+        "Lat" : 42.35122196, 
+        "Long_" : 13.39843823, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Abruzzo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5841, 
+        "Recovered" : 0, 
+        "Deaths" : 135, 
+        "Active" : 5706, 
+        "Lat" : -9.0238, 
+        "Long_" : -70.812, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Acre"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 797, 
+        "Recovered" : 545, 
+        "Deaths" : 33, 
+        "Active" : 219, 
+        "Lat" : 21.8853, 
+        "Long_" : -102.2916, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Aguascalientes"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 506, 
+        "Recovered" : 453, 
+        "Deaths" : 34, 
+        "Active" : 19, 
+        "Lat" : 35.035551, 
+        "Long_" : 137.211621, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Aichi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8618, 
+        "Recovered" : 0, 
+        "Deaths" : 406, 
+        "Active" : 8212, 
+        "Lat" : -9.5713, 
+        "Long_" : -36.782, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Alagoas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6979, 
+        "Recovered" : 6220, 
+        "Deaths" : 143, 
+        "Active" : 616, 
+        "Lat" : 53.9333, 
+        "Long_" : -116.5765, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Alberta"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8469, 
+        "Recovered" : 0, 
+        "Deaths" : 207, 
+        "Active" : 8262, 
+        "Lat" : 0.902, 
+        "Long_" : -52.003, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Amapa"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 38909, 
+        "Recovered" : 0, 
+        "Deaths" : 2011, 
+        "Active" : 36898, 
+        "Lat" : -3.4168, 
+        "Long_" : -65.8561, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Amazonas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1761, 
+        "Recovered" : 128, 
+        "Deaths" : 59, 
+        "Active" : 1574, 
+        "Lat" : -1.4429, 
+        "Long_" : -71.5724, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Amazonas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 546, 
+        "Recovered" : 0, 
+        "Deaths" : 21, 
+        "Active" : 525, 
+        "Lat" : -5.077253, 
+        "Long_" : -78.050172, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Amazonas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3455, 
+        "Recovered" : 0, 
+        "Deaths" : 241, 
+        "Active" : 3214, 
+        "Lat" : -9.407125, 
+        "Long_" : -77.671795, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Ancash"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 12655, 
+        "Recovered" : 10671, 
+        "Deaths" : 1404, 
+        "Active" : 580, 
+        "Lat" : 37.5443, 
+        "Long_" : -4.7278, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Andalusia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 991, 
+        "Recovered" : 985, 
+        "Deaths" : 6, 
+        "Active" : 0, 
+        "Lat" : 31.8257, 
+        "Long_" : 117.2264, 
+        "Country_Region" : "China", 
+        "Province_State" : "Anhui"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1005, 
+        "Recovered" : 409, 
+        "Deaths" : 6, 
+        "Active" : 590, 
+        "Lat" : 7.1986, 
+        "Long_" : -75.3412, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Antioquia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2318, 
+        "Recovered" : 0, 
+        "Deaths" : 28, 
+        "Active" : 2290, 
+        "Lat" : -23.6509, 
+        "Long_" : -70.3975, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Antofagasta"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 27, 
+        "Recovered" : 25, 
+        "Deaths" : 1, 
+        "Active" : 1, 
+        "Lat" : 40.781541, 
+        "Long_" : 140.828896, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Aomori"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5671, 
+        "Recovered" : 3772, 
+        "Deaths" : 826, 
+        "Active" : 1073, 
+        "Lat" : 41.5976, 
+        "Long_" : -0.9057, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Aragon"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1989, 
+        "Recovered" : 0, 
+        "Deaths" : 47, 
+        "Active" : 1942, 
+        "Lat" : -38.9489, 
+        "Long_" : -72.3311, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Araucania"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2921, 
+        "Recovered" : 0, 
+        "Deaths" : 31, 
+        "Active" : 2890, 
+        "Lat" : -15.843524, 
+        "Long_" : -72.475539, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Arequipa"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 582, 
+        "Recovered" : 0, 
+        "Deaths" : 7, 
+        "Active" : 575, 
+        "Lat" : -18.594, 
+        "Long_" : -69.4785, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Arica y Parinacota"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 101, 
+        "Recovered" : 98, 
+        "Deaths" : 3, 
+        "Active" : 0, 
+        "Lat" : 12.5211, 
+        "Long_" : -69.9683, 
+        "Country_Region" : "Netherlands", 
+        "Province_State" : "Aruba"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2401, 
+        "Recovered" : 1063, 
+        "Deaths" : 310, 
+        "Active" : 1028, 
+        "Lat" : 43.3614, 
+        "Long_" : -5.8593, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Asturias"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3277, 
+        "Recovered" : 421, 
+        "Deaths" : 83, 
+        "Active" : 2773, 
+        "Lat" : 10.6966, 
+        "Long_" : -74.8741, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Atlantico"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 107, 
+        "Recovered" : 104, 
+        "Deaths" : 3, 
+        "Active" : 0, 
+        "Lat" : -35.4735, 
+        "Long_" : 149.0124, 
+        "Country_Region" : "Australia", 
+        "Province_State" : "Australian Capital Territory"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 639, 
+        "Recovered" : 0, 
+        "Deaths" : 6, 
+        "Active" : 633, 
+        "Lat" : -14.091648, 
+        "Long_" : -74.08344, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Ayacucho"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 34708, 
+        "Recovered" : 31595, 
+        "Deaths" : 1749, 
+        "Active" : 1364, 
+        "Lat" : 48.6616, 
+        "Long_" : 9.3501, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Baden-Wurttemberg"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 16917, 
+        "Recovered" : 0, 
+        "Deaths" : 609, 
+        "Active" : 16308, 
+        "Lat" : -12.5797, 
+        "Long_" : -41.7007, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Bahia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4886, 
+        "Recovered" : 3391, 
+        "Deaths" : 821, 
+        "Active" : 674, 
+        "Lat" : 30.8406, 
+        "Long_" : -115.2838, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Baja California"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 594, 
+        "Recovered" : 474, 
+        "Deaths" : 34, 
+        "Active" : 86, 
+        "Lat" : 26.0444, 
+        "Long_" : -111.6661, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Baja California Sur"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2129, 
+        "Recovered" : 1533, 
+        "Deaths" : 209, 
+        "Active" : 387, 
+        "Lat" : 39.710358, 
+        "Long_" : 2.995148, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Baleares"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 399, 
+        "Recovered" : 339, 
+        "Deaths" : 27, 
+        "Active" : 33, 
+        "Lat" : 40.63947052, 
+        "Long_" : 15.80514834, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Basilicata"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 47073, 
+        "Recovered" : 42660, 
+        "Deaths" : 2460, 
+        "Active" : 1953, 
+        "Lat" : 48.7904, 
+        "Long_" : 11.4979, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Bayern"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 593, 
+        "Recovered" : 581, 
+        "Deaths" : 9, 
+        "Active" : 3, 
+        "Lat" : 40.1824, 
+        "Long_" : 116.4142, 
+        "Country_Region" : "China", 
+        "Province_State" : "Beijing"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6766, 
+        "Recovered" : 6240, 
+        "Deaths" : 197, 
+        "Active" : 329, 
+        "Lat" : 52.52, 
+        "Long_" : 13.405, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Berlin"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 140, 
+        "Recovered" : 92, 
+        "Deaths" : 9, 
+        "Active" : 39, 
+        "Lat" : 32.3078, 
+        "Long_" : -64.7505, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : "Bermuda"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1778, 
+        "Recovered" : 0, 
+        "Deaths" : 11, 
+        "Active" : 1767, 
+        "Lat" : -37.4464, 
+        "Long_" : -72.1416, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Biobio"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2661, 
+        "Recovered" : 406, 
+        "Deaths" : 133, 
+        "Active" : 2122, 
+        "Lat" : 8.6704, 
+        "Long_" : -74.03, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Bolivar"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 182, 
+        "Recovered" : 66, 
+        "Deaths" : 10, 
+        "Active" : 106, 
+        "Lat" : 5.4545, 
+        "Long_" : -73.362, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Boyaca"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3271, 
+        "Recovered" : 3000, 
+        "Deaths" : 169, 
+        "Active" : 102, 
+        "Lat" : 52.4125, 
+        "Long_" : 12.5316, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Brandenburg"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1404, 
+        "Recovered" : 1200, 
+        "Deaths" : 42, 
+        "Active" : 162, 
+        "Lat" : 53.0793, 
+        "Long_" : 8.8017, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Bremen"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2562, 
+        "Recovered" : 2177, 
+        "Deaths" : 164, 
+        "Active" : 221, 
+        "Lat" : 53.7267, 
+        "Long_" : -127.6476, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "British Columbia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8, 
+        "Recovered" : 7, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : 18.4207, 
+        "Long_" : -64.64, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : "British Virgin Islands"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 11191, 
+        "Recovered" : 9970, 
+        "Deaths" : 1334, 
+        "Active" : -113, 
+        "Lat" : 39.484, 
+        "Long_" : -0.7533, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "C. Valenciana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 669, 
+        "Recovered" : 0, 
+        "Deaths" : 3, 
+        "Active" : 666, 
+        "Lat" : -6.430284, 
+        "Long_" : -78.745596, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Cajamarca"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1158, 
+        "Recovered" : 902, 
+        "Deaths" : 97, 
+        "Active" : 159, 
+        "Lat" : 38.90597598, 
+        "Long_" : 16.59440194, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Calabria"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 135, 
+        "Recovered" : 84, 
+        "Deaths" : 6, 
+        "Active" : 45, 
+        "Lat" : 5.2983, 
+        "Long_" : -75.2479, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Caldas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9953, 
+        "Recovered" : 0, 
+        "Deaths" : 289, 
+        "Active" : 9664, 
+        "Lat" : -11.954609, 
+        "Long_" : -77.136042, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Callao"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4787, 
+        "Recovered" : 3390, 
+        "Deaths" : 411, 
+        "Active" : 986, 
+        "Lat" : 40.83956555, 
+        "Long_" : 14.25084984, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Campania"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 535, 
+        "Recovered" : 331, 
+        "Deaths" : 81, 
+        "Active" : 123, 
+        "Lat" : 19.8301, 
+        "Long_" : -90.5349, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Campeche"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2333, 
+        "Recovered" : 1537, 
+        "Deaths" : 151, 
+        "Active" : 645, 
+        "Lat" : 28.2916, 
+        "Long_" : -16.6291, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Canarias"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2298, 
+        "Recovered" : 2287, 
+        "Deaths" : 202, 
+        "Active" : -191, 
+        "Lat" : 43.1828, 
+        "Long_" : -3.9878, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Cantabria"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8536, 
+        "Recovered" : 2837, 
+        "Deaths" : 238, 
+        "Active" : 5461, 
+        "Lat" : 4.711, 
+        "Long_" : -74.0721, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Capital District"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 24, 
+        "Recovered" : 7, 
+        "Deaths" : 1, 
+        "Active" : 16, 
+        "Lat" : 0.8699, 
+        "Long_" : -73.8419, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Caqueta"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 17122, 
+        "Recovered" : 6392, 
+        "Deaths" : 2945, 
+        "Active" : 7785, 
+        "Lat" : 39.2796, 
+        "Long_" : -3.0977, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Castilla - La Mancha"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 18747, 
+        "Recovered" : 8716, 
+        "Deaths" : 1922, 
+        "Active" : 8109, 
+        "Lat" : 41.8357, 
+        "Long_" : -4.3976, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Castilla y Leon"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 58699, 
+        "Recovered" : 26203, 
+        "Deaths" : 5584, 
+        "Active" : 26912, 
+        "Lat" : 41.5912, 
+        "Long_" : 1.5209, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Catalonia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 90, 
+        "Recovered" : 41, 
+        "Deaths" : 4, 
+        "Active" : 45, 
+        "Lat" : 2.705, 
+        "Long_" : -76.826, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Cauca"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 141, 
+        "Recovered" : 68, 
+        "Deaths" : 1, 
+        "Active" : 72, 
+        "Lat" : 19.3133, 
+        "Long_" : -81.2546, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : "Cayman Islands"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 38395, 
+        "Recovered" : 0, 
+        "Deaths" : 2859, 
+        "Active" : 35536, 
+        "Lat" : -5.4984, 
+        "Long_" : -39.3206, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Ceara"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 130, 
+        "Recovered" : 59, 
+        "Deaths" : 12, 
+        "Active" : 59, 
+        "Lat" : 9.3373, 
+        "Long_" : -73.6536, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Cesar"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 145, 
+        "Recovered" : 163, 
+        "Deaths" : 4, 
+        "Active" : -22, 
+        "Lat" : 35.8894, 
+        "Long_" : -5.3213, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Ceuta"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 560, 
+        "Recovered" : 512, 
+        "Deaths" : 45, 
+        "Active" : 3, 
+        "Lat" : 49.3723, 
+        "Long_" : -2.3644, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : "Channel Islands"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1566, 
+        "Recovered" : 878, 
+        "Deaths" : 125, 
+        "Active" : 563, 
+        "Lat" : 16.7569, 
+        "Long_" : -93.1292, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Chiapas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 906, 
+        "Recovered" : 804, 
+        "Deaths" : 45, 
+        "Active" : 57, 
+        "Lat" : 35.510141, 
+        "Long_" : 140.198917, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Chiba"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1505, 
+        "Recovered" : 1035, 
+        "Deaths" : 305, 
+        "Active" : 165, 
+        "Lat" : 28.633, 
+        "Long_" : -106.0691, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Chihuahua"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 196, 
+        "Recovered" : 18, 
+        "Deaths" : 5, 
+        "Active" : 173, 
+        "Lat" : 5.2528, 
+        "Long_" : -76.826, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Choco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 579, 
+        "Recovered" : 573, 
+        "Deaths" : 6, 
+        "Active" : 0, 
+        "Lat" : 30.0572, 
+        "Long_" : 107.874, 
+        "Country_Region" : "China", 
+        "Province_State" : "Chongqing"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 23623, 
+        "Recovered" : 17060, 
+        "Deaths" : 2536, 
+        "Active" : 4027, 
+        "Lat" : 19.4326, 
+        "Long_" : -99.1332, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Ciudad de Mexico"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1015, 
+        "Recovered" : 740, 
+        "Deaths" : 75, 
+        "Active" : 200, 
+        "Lat" : 27.0587, 
+        "Long_" : -101.7068, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Coahuila"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 136, 
+        "Recovered" : 72, 
+        "Deaths" : 21, 
+        "Active" : 43, 
+        "Lat" : 19.1223, 
+        "Long_" : -104.0072, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Colima"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 537, 
+        "Recovered" : 0, 
+        "Deaths" : 2, 
+        "Active" : 535, 
+        "Lat" : -29.959, 
+        "Long_" : -71.3389, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Coquimbo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 101, 
+        "Recovered" : 25, 
+        "Deaths" : 6, 
+        "Active" : 70, 
+        "Lat" : 8.0493, 
+        "Long_" : -75.574, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Cordoba"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 757, 
+        "Recovered" : 244, 
+        "Deaths" : 15, 
+        "Active" : 498, 
+        "Lat" : 5.026, 
+        "Long_" : -74.03, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Cundinamarca"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 18, 
+        "Recovered" : 14, 
+        "Deaths" : 1, 
+        "Active" : 3, 
+        "Lat" : 12.1696, 
+        "Long_" : -68.99, 
+        "Country_Region" : "Netherlands", 
+        "Province_State" : "Curacao"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 916, 
+        "Recovered" : 0, 
+        "Deaths" : 3, 
+        "Active" : 913, 
+        "Lat" : -13.191068, 
+        "Long_" : -72.153609, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Cusco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1, 
+        "Recovered" : 0, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : null, 
+        "Long_" : null, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Diamond Princess"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8722, 
+        "Recovered" : 0, 
+        "Deaths" : 154, 
+        "Active" : 8568, 
+        "Lat" : -15.7998, 
+        "Long_" : -47.8645, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Distrito Federal"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 322, 
+        "Recovered" : 179, 
+        "Deaths" : 34, 
+        "Active" : 109, 
+        "Lat" : 24.5593, 
+        "Long_" : -104.6588, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Durango"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 83, 
+        "Recovered" : 50, 
+        "Deaths" : 4, 
+        "Active" : 29, 
+        "Lat" : 33.624835, 
+        "Long_" : 132.856842, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Ehime"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 27739, 
+        "Recovered" : 20073, 
+        "Deaths" : 4102, 
+        "Active" : 3564, 
+        "Lat" : 44.49436681, 
+        "Long_" : 11.3417208, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Emilia-Romagna"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 12903, 
+        "Recovered" : 0, 
+        "Deaths" : 560, 
+        "Active" : 12343, 
+        "Lat" : -19.1834, 
+        "Long_" : -40.3089, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Espirito Santo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2963, 
+        "Recovered" : 2652, 
+        "Deaths" : 507, 
+        "Active" : -196, 
+        "Lat" : 39.4937, 
+        "Long_" : -6.0679, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Extremadura"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 450, 
+        "Recovered" : 172, 
+        "Deaths" : 1, 
+        "Active" : 277, 
+        "Lat" : 4, 
+        "Long_" : -53, 
+        "Country_Region" : "France", 
+        "Province_State" : "French Guiana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3267, 
+        "Recovered" : 2611, 
+        "Deaths" : 333, 
+        "Active" : 323, 
+        "Lat" : 45.6494354, 
+        "Long_" : 13.76813649, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Friuli Venezia Giulia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 358, 
+        "Recovered" : 355, 
+        "Deaths" : 1, 
+        "Active" : 2, 
+        "Lat" : 26.0789, 
+        "Long_" : 117.9874, 
+        "Country_Region" : "China", 
+        "Province_State" : "Fujian"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 122, 
+        "Recovered" : 109, 
+        "Deaths" : 8, 
+        "Active" : 5, 
+        "Lat" : 35.846614, 
+        "Long_" : 136.224654, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Fukui"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 727, 
+        "Recovered" : 616, 
+        "Deaths" : 25, 
+        "Active" : 86, 
+        "Lat" : 33.526032, 
+        "Long_" : 130.666949, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Fukuoka"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9117, 
+        "Recovered" : 9204, 
+        "Deaths" : 608, 
+        "Active" : -695, 
+        "Lat" : 42.5751, 
+        "Long_" : -8.1339, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Galicia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 139, 
+        "Recovered" : 137, 
+        "Deaths" : 2, 
+        "Active" : 0, 
+        "Lat" : 35.7518, 
+        "Long_" : 104.2861, 
+        "Country_Region" : "China", 
+        "Province_State" : "Gansu"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 150, 
+        "Recovered" : 141, 
+        "Deaths" : 7, 
+        "Active" : 2, 
+        "Lat" : 35.778671, 
+        "Long_" : 137.055925, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Gifu"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3319, 
+        "Recovered" : 0, 
+        "Deaths" : 119, 
+        "Active" : 3200, 
+        "Lat" : -15.827, 
+        "Long_" : -49.8362, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Goias"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 162, 
+        "Recovered" : 138, 
+        "Deaths" : 14, 
+        "Active" : 10, 
+        "Lat" : 16.265, 
+        "Long_" : -61.551, 
+        "Country_Region" : "France", 
+        "Province_State" : "Guadeloupe"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1384, 
+        "Recovered" : 823, 
+        "Deaths" : 105, 
+        "Active" : 456, 
+        "Lat" : 21.019, 
+        "Long_" : -101.2574, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Guanajuato"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1593, 
+        "Recovered" : 1583, 
+        "Deaths" : 8, 
+        "Active" : 2, 
+        "Lat" : 23.3417, 
+        "Long_" : 113.4244, 
+        "Country_Region" : "China", 
+        "Province_State" : "Guangdong"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 254, 
+        "Recovered" : 252, 
+        "Deaths" : 2, 
+        "Active" : 0, 
+        "Lat" : 23.8298, 
+        "Long_" : 108.7881, 
+        "Country_Region" : "China", 
+        "Province_State" : "Guangxi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1643, 
+        "Recovered" : 1085, 
+        "Deaths" : 242, 
+        "Active" : 316, 
+        "Lat" : 17.4392, 
+        "Long_" : -99.5451, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Guerrero"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 147, 
+        "Recovered" : 145, 
+        "Deaths" : 2, 
+        "Active" : 0, 
+        "Lat" : 26.8154, 
+        "Long_" : 106.8748, 
+        "Country_Region" : "China", 
+        "Province_State" : "Guizhou"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 149, 
+        "Recovered" : 117, 
+        "Deaths" : 19, 
+        "Active" : 13, 
+        "Lat" : 36.504479, 
+        "Long_" : 138.985605, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Gunma"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 169, 
+        "Recovered" : 163, 
+        "Deaths" : 6, 
+        "Active" : 0, 
+        "Lat" : 19.1959, 
+        "Long_" : 109.7453, 
+        "Country_Region" : "China", 
+        "Province_State" : "Hainan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5078, 
+        "Recovered" : 4700, 
+        "Deaths" : 245, 
+        "Active" : 133, 
+        "Lat" : 53.5511, 
+        "Long_" : 9.9937, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Hamburg"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 328, 
+        "Recovered" : 322, 
+        "Deaths" : 6, 
+        "Active" : 0, 
+        "Lat" : 37.8957, 
+        "Long_" : 114.9042, 
+        "Country_Region" : "China", 
+        "Province_State" : "Hebei"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 945, 
+        "Recovered" : 932, 
+        "Deaths" : 13, 
+        "Active" : 0, 
+        "Lat" : 47.862, 
+        "Long_" : 127.7615, 
+        "Country_Region" : "China", 
+        "Province_State" : "Heilongjiang"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1276, 
+        "Recovered" : 1254, 
+        "Deaths" : 22, 
+        "Active" : 0, 
+        "Lat" : 33.882, 
+        "Long_" : 113.614, 
+        "Country_Region" : "China", 
+        "Province_State" : "Henan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9962, 
+        "Recovered" : 8800, 
+        "Deaths" : 476, 
+        "Active" : 686, 
+        "Lat" : 50.6521, 
+        "Long_" : 9.1624, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Hessen"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1599, 
+        "Recovered" : 870, 
+        "Deaths" : 287, 
+        "Active" : 442, 
+        "Lat" : 20.0911, 
+        "Long_" : -98.7624, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Hidalgo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 164, 
+        "Recovered" : 151, 
+        "Deaths" : 3, 
+        "Active" : 10, 
+        "Lat" : 34.605309, 
+        "Long_" : 132.788719, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Hiroshima"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1073, 
+        "Recovered" : 770, 
+        "Deaths" : 86, 
+        "Active" : 217, 
+        "Lat" : 43.385711, 
+        "Long_" : 142.552318, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Hokkaido"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1079, 
+        "Recovered" : 1035, 
+        "Deaths" : 4, 
+        "Active" : 40, 
+        "Lat" : 22.3, 
+        "Long_" : 114.2, 
+        "Country_Region" : "China", 
+        "Province_State" : "Hong Kong"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 383, 
+        "Recovered" : 0, 
+        "Deaths" : 1, 
+        "Active" : 382, 
+        "Lat" : -13.023888, 
+        "Long_" : -75.00277, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Huancavelica"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 780, 
+        "Recovered" : 0, 
+        "Deaths" : 9, 
+        "Active" : 771, 
+        "Lat" : -9.421676, 
+        "Long_" : -76.040642, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Huanuco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 68135, 
+        "Recovered" : 63619, 
+        "Deaths" : 4512, 
+        "Active" : 4, 
+        "Lat" : 30.9756, 
+        "Long_" : 112.2707, 
+        "Country_Region" : "China", 
+        "Province_State" : "Hubei"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 251, 
+        "Recovered" : 158, 
+        "Deaths" : 13, 
+        "Active" : 80, 
+        "Lat" : 2.5359, 
+        "Long_" : -75.5277, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Huila"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1019, 
+        "Recovered" : 1015, 
+        "Deaths" : 4, 
+        "Active" : 0, 
+        "Lat" : 27.6104, 
+        "Long_" : 111.7088, 
+        "Country_Region" : "China", 
+        "Province_State" : "Hunan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 699, 
+        "Recovered" : 625, 
+        "Deaths" : 41, 
+        "Active" : 33, 
+        "Lat" : 35.039913, 
+        "Long_" : 134.828057, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Hyogo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 168, 
+        "Recovered" : 147, 
+        "Deaths" : 10, 
+        "Active" : 11, 
+        "Lat" : 36.303588, 
+        "Long_" : 140.319591, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Ibaraki"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2662, 
+        "Recovered" : 0, 
+        "Deaths" : 222, 
+        "Active" : 2440, 
+        "Lat" : -14.235097, 
+        "Long_" : -75.574821, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Ica"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 232, 
+        "Recovered" : 205, 
+        "Deaths" : 1, 
+        "Active" : 26, 
+        "Lat" : 44.0935, 
+        "Long_" : 113.9448, 
+        "Country_Region" : "China", 
+        "Province_State" : "Inner Mongolia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 298, 
+        "Recovered" : 218, 
+        "Deaths" : 24, 
+        "Active" : 56, 
+        "Lat" : 36.769464, 
+        "Long_" : 136.771027, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Ishikawa"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 336, 
+        "Recovered" : 309, 
+        "Deaths" : 24, 
+        "Active" : 3, 
+        "Lat" : 54.2361, 
+        "Long_" : -4.5481, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : "Isle of Man"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1524, 
+        "Recovered" : 900, 
+        "Deaths" : 136, 
+        "Active" : 488, 
+        "Lat" : 20.6595, 
+        "Long_" : -103.3494, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Jalisco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 937, 
+        "Recovered" : 936, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : 27.614, 
+        "Long_" : 115.7221, 
+        "Country_Region" : "China", 
+        "Province_State" : "Jiangxi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 155, 
+        "Recovered" : 142, 
+        "Deaths" : 2, 
+        "Active" : 11, 
+        "Lat" : 43.6661, 
+        "Long_" : 126.1923, 
+        "Country_Region" : "China", 
+        "Province_State" : "Jilin"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1675, 
+        "Recovered" : 0, 
+        "Deaths" : 16, 
+        "Active" : 1659, 
+        "Lat" : -11.541783, 
+        "Long_" : -74.876968, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Junin"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1359, 
+        "Recovered" : 1061, 
+        "Deaths" : 85, 
+        "Active" : 213, 
+        "Lat" : 35.415312, 
+        "Long_" : 139.338983, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Kanagawa"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 74, 
+        "Recovered" : 70, 
+        "Deaths" : 3, 
+        "Active" : 1, 
+        "Lat" : 33.422519, 
+        "Long_" : 133.367307, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Kochi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 47, 
+        "Recovered" : 39, 
+        "Deaths" : 3, 
+        "Active" : 5, 
+        "Lat" : 32.608154, 
+        "Long_" : 130.745231, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Kumamoto"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 358, 
+        "Recovered" : 323, 
+        "Deaths" : 16, 
+        "Active" : 19, 
+        "Lat" : 35.253815, 
+        "Long_" : 135.443341, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Kyoto"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 57, 
+        "Recovered" : 14, 
+        "Deaths" : 4, 
+        "Active" : 39, 
+        "Lat" : 11.3548, 
+        "Long_" : -72.5205, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "La Guajira"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3818, 
+        "Recovered" : 0, 
+        "Deaths" : 174, 
+        "Active" : 3644, 
+        "Lat" : -7.92139, 
+        "Long_" : -78.370238, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "La Libertad"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4048, 
+        "Recovered" : 3107, 
+        "Deaths" : 360, 
+        "Active" : 581, 
+        "Lat" : 42.2871, 
+        "Long_" : -2.5396, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "La Rioja"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 7020, 
+        "Recovered" : 0, 
+        "Deaths" : 605, 
+        "Active" : 6415, 
+        "Lat" : -6.353049, 
+        "Long_" : -79.824113, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Lambayeque"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 7709, 
+        "Recovered" : 3825, 
+        "Deaths" : 721, 
+        "Active" : 3163, 
+        "Lat" : 41.89277044, 
+        "Long_" : 12.48366722, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Lazio"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 149, 
+        "Recovered" : 147, 
+        "Deaths" : 2, 
+        "Active" : 0, 
+        "Lat" : 41.2956, 
+        "Long_" : 122.6085, 
+        "Country_Region" : "China", 
+        "Province_State" : "Liaoning"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9619, 
+        "Recovered" : 7173, 
+        "Deaths" : 1452, 
+        "Active" : 994, 
+        "Lat" : 44.41149315, 
+        "Long_" : 8.9326992, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Liguria"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 87478, 
+        "Recovered" : 0, 
+        "Deaths" : 1473, 
+        "Active" : 86005, 
+        "Lat" : -11.766533, 
+        "Long_" : -76.604498, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Lima"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 88537, 
+        "Recovered" : 49842, 
+        "Deaths" : 16012, 
+        "Active" : 22683, 
+        "Lat" : 45.46679409, 
+        "Long_" : 9.190347404, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Lombardia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3959, 
+        "Recovered" : 0, 
+        "Deaths" : 289, 
+        "Active" : 3670, 
+        "Lat" : -4.124847, 
+        "Long_" : -74.424115, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Loreto"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 822, 
+        "Recovered" : 0, 
+        "Deaths" : 13, 
+        "Active" : 809, 
+        "Lat" : -41.9198, 
+        "Long_" : -72.1416, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Los Lagos"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 330, 
+        "Recovered" : 0, 
+        "Deaths" : 6, 
+        "Active" : 324, 
+        "Lat" : -40.231, 
+        "Long_" : -72.3311, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Los Rios"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 402, 
+        "Recovered" : 0, 
+        "Deaths" : 6, 
+        "Active" : 396, 
+        "Lat" : -11.972699, 
+        "Long_" : -70.53172, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Madre de Dios"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 68597, 
+        "Recovered" : 40736, 
+        "Deaths" : 8691, 
+        "Active" : 19170, 
+        "Lat" : 40.4168, 
+        "Long_" : -3.7038, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Madrid"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1047, 
+        "Recovered" : 0, 
+        "Deaths" : 19, 
+        "Active" : 1028, 
+        "Lat" : -52.368, 
+        "Long_" : -70.9863, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Magallanes"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 556, 
+        "Recovered" : 163, 
+        "Deaths" : 37, 
+        "Active" : 356, 
+        "Lat" : 10.4113, 
+        "Long_" : -74.4057, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Magdalena"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 294, 
+        "Recovered" : 273, 
+        "Deaths" : 7, 
+        "Active" : 14, 
+        "Lat" : 53.7609, 
+        "Long_" : -98.8139, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Manitoba"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 30482, 
+        "Recovered" : 0, 
+        "Deaths" : 911, 
+        "Active" : 29571, 
+        "Lat" : -4.9609, 
+        "Long_" : -45.2744, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Maranhao"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6723, 
+        "Recovered" : 4385, 
+        "Deaths" : 986, 
+        "Active" : 1352, 
+        "Lat" : 43.61675973, 
+        "Long_" : 13.5188753, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Marche"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 200, 
+        "Recovered" : 98, 
+        "Deaths" : 14, 
+        "Active" : 88, 
+        "Lat" : 14.6415, 
+        "Long_" : -61.0242, 
+        "Country_Region" : "France", 
+        "Province_State" : "Martinique"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2103, 
+        "Recovered" : 0, 
+        "Deaths" : 56, 
+        "Active" : 2047, 
+        "Lat" : -12.6819, 
+        "Long_" : -56.9211, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Mato Grosso"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1356, 
+        "Recovered" : 0, 
+        "Deaths" : 18, 
+        "Active" : 1338, 
+        "Lat" : -20.7722, 
+        "Long_" : -54.7852, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Mato Grosso do Sul"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1180, 
+        "Recovered" : 0, 
+        "Deaths" : 15, 
+        "Active" : 1165, 
+        "Lat" : -35.5183, 
+        "Long_" : -71.6885, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Maule"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1699, 
+        "Recovered" : 1385, 
+        "Deaths" : 21, 
+        "Active" : 293, 
+        "Lat" : -12.8275, 
+        "Long_" : 45.166244, 
+        "Country_Region" : "France", 
+        "Province_State" : "Mayotte"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 760, 
+        "Recovered" : 720, 
+        "Deaths" : 20, 
+        "Active" : 20, 
+        "Lat" : 53.6127, 
+        "Long_" : 12.4296, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Mecklenburg-Vorpommern"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 121, 
+        "Recovered" : 125, 
+        "Deaths" : 2, 
+        "Active" : -6, 
+        "Lat" : 35.2923, 
+        "Long_" : -2.9381, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Melilla"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 973, 
+        "Recovered" : 99, 
+        "Deaths" : 9, 
+        "Active" : 865, 
+        "Lat" : 3.272, 
+        "Long_" : -73.0877, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Meta"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 72910, 
+        "Recovered" : 0, 
+        "Deaths" : 685, 
+        "Active" : 72225, 
+        "Lat" : -33.4376, 
+        "Long_" : -70.6505, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Metropolitana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 14063, 
+        "Recovered" : 10905, 
+        "Deaths" : 1087, 
+        "Active" : 2071, 
+        "Lat" : 19.4969, 
+        "Long_" : -99.7233, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Mexico"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1810, 
+        "Recovered" : 1226, 
+        "Deaths" : 153, 
+        "Active" : 431, 
+        "Lat" : 19.5665, 
+        "Long_" : -101.7068, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Michoacan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 45, 
+        "Recovered" : 41, 
+        "Deaths" : 1, 
+        "Active" : 3, 
+        "Lat" : 34.508018, 
+        "Long_" : 136.376013, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Mie"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9232, 
+        "Recovered" : 0, 
+        "Deaths" : 257, 
+        "Active" : 8975, 
+        "Lat" : -18.5122, 
+        "Long_" : -44.555, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Minas Gerais"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 88, 
+        "Recovered" : 87, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : 38.446859, 
+        "Long_" : 140.927086, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Miyagi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 436, 
+        "Recovered" : 252, 
+        "Deaths" : 22, 
+        "Active" : 162, 
+        "Lat" : 41.55774754, 
+        "Long_" : 14.65916051, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Molise"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 11, 
+        "Recovered" : 10, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : 16.742498, 
+        "Long_" : -62.187366, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : "Montserrat"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 447, 
+        "Recovered" : 0, 
+        "Deaths" : 2, 
+        "Active" : 445, 
+        "Lat" : -16.860271, 
+        "Long_" : -70.839046, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Moquegua"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1333, 
+        "Recovered" : 815, 
+        "Deaths" : 262, 
+        "Active" : 256, 
+        "Lat" : 18.6813, 
+        "Long_" : -99.1013, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Morelos"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1595, 
+        "Recovered" : 2180, 
+        "Deaths" : 148, 
+        "Active" : -733, 
+        "Lat" : 37.9922, 
+        "Long_" : -1.1307, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Murcia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 17, 
+        "Recovered" : 16, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : 33.235712, 
+        "Long_" : 129.608033, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Nagasaki"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 92, 
+        "Recovered" : 86, 
+        "Deaths" : 2, 
+        "Active" : 4, 
+        "Lat" : 34.317451, 
+        "Long_" : 135.871644, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Nara"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 867, 
+        "Recovered" : 115, 
+        "Deaths" : 39, 
+        "Active" : 713, 
+        "Lat" : 1.2892, 
+        "Long_" : -77.3579, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Narino"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5238, 
+        "Recovered" : 3905, 
+        "Deaths" : 490, 
+        "Active" : 843, 
+        "Lat" : 42.6954, 
+        "Long_" : -1.6761, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Navarra"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 524, 
+        "Recovered" : 327, 
+        "Deaths" : 51, 
+        "Active" : 146, 
+        "Lat" : 21.7514, 
+        "Long_" : -104.8455, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Nayarit"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3092, 
+        "Recovered" : 2683, 
+        "Deaths" : 48, 
+        "Active" : 361, 
+        "Lat" : -33.8688, 
+        "Long_" : 151.2093, 
+        "Country_Region" : "Australia", 
+        "Province_State" : "New South Wales"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 261, 
+        "Recovered" : 255, 
+        "Deaths" : 3, 
+        "Active" : 3, 
+        "Lat" : 53.1355, 
+        "Long_" : -57.6604, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Newfoundland and Labrador"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 11893, 
+        "Recovered" : 10600, 
+        "Deaths" : 596, 
+        "Active" : 697, 
+        "Lat" : 52.6367, 
+        "Long_" : 9.8451, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Niedersachsen"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 37803, 
+        "Recovered" : 34300, 
+        "Deaths" : 1587, 
+        "Active" : 1916, 
+        "Lat" : 51.4332, 
+        "Long_" : 7.6616, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Nordrhein-Westfalen"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 128, 
+        "Recovered" : 83, 
+        "Deaths" : 13, 
+        "Active" : 32, 
+        "Lat" : 7.9463, 
+        "Long_" : -72.8988, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Norte de Santander"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1055, 
+        "Recovered" : 978, 
+        "Deaths" : 59, 
+        "Active" : 18, 
+        "Lat" : 44.682, 
+        "Long_" : -63.7443, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Nova Scotia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1242, 
+        "Recovered" : 0, 
+        "Deaths" : 22, 
+        "Active" : 1220, 
+        "Lat" : -36.7226, 
+        "Long_" : -71.7622, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Nuble"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1361, 
+        "Recovered" : 975, 
+        "Deaths" : 85, 
+        "Active" : 301, 
+        "Lat" : 25.5922, 
+        "Long_" : -99.9962, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Nuevo Leon"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 745, 
+        "Recovered" : 0, 
+        "Deaths" : 14, 
+        "Active" : 731, 
+        "Lat" : -34.5755, 
+        "Long_" : -71.0022, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "OHiggins"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1251, 
+        "Recovered" : 778, 
+        "Deaths" : 141, 
+        "Active" : 332, 
+        "Lat" : 17.0732, 
+        "Long_" : -96.7266, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Oaxaca"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 60, 
+        "Recovered" : 58, 
+        "Deaths" : 1, 
+        "Active" : 1, 
+        "Lat" : 33.200697, 
+        "Long_" : 131.43324, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Oita"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 145, 
+        "Recovered" : 136, 
+        "Deaths" : 6, 
+        "Active" : 3, 
+        "Lat" : 25.768923, 
+        "Long_" : 126.668016, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Okinawa"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 28700, 
+        "Recovered" : 21348, 
+        "Deaths" : 2313, 
+        "Active" : 5039, 
+        "Lat" : 51.2538, 
+        "Long_" : -85.3232, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Ontario"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1782, 
+        "Recovered" : 1539, 
+        "Deaths" : 82, 
+        "Active" : 161, 
+        "Lat" : 34.620965, 
+        "Long_" : 135.507481, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Osaka"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2595, 
+        "Recovered" : 2150, 
+        "Deaths" : 291, 
+        "Active" : 154, 
+        "Lat" : 46.49933453, 
+        "Long_" : 11.35662422, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "P.A. Bolzano"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4428, 
+        "Recovered" : 3556, 
+        "Deaths" : 462, 
+        "Active" : 410, 
+        "Lat" : 46.06893511, 
+        "Long_" : 11.12123097, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "P.A. Trento"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 13494, 
+        "Recovered" : 16160, 
+        "Deaths" : 1424, 
+        "Active" : -4090, 
+        "Lat" : 42.9896, 
+        "Long_" : -2.6189, 
+        "Country_Region" : "Spain", 
+        "Province_State" : "Pais Vasco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 36486, 
+        "Recovered" : 0, 
+        "Deaths" : 2827, 
+        "Active" : 33659, 
+        "Lat" : -1.9981, 
+        "Long_" : -54.9306, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Para"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 12011, 
+        "Recovered" : 0, 
+        "Deaths" : 327, 
+        "Active" : 11684, 
+        "Lat" : -7.24, 
+        "Long_" : -36.782, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Paraiba"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4236, 
+        "Recovered" : 0, 
+        "Deaths" : 173, 
+        "Active" : 4063, 
+        "Lat" : -25.2521, 
+        "Long_" : -52.0215, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Parana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 426, 
+        "Recovered" : 0, 
+        "Deaths" : 8, 
+        "Active" : 418, 
+        "Lat" : -10.39655, 
+        "Long_" : -75.307635, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Pasco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 32255, 
+        "Recovered" : 0, 
+        "Deaths" : 2669, 
+        "Active" : 29586, 
+        "Lat" : -8.8137, 
+        "Long_" : -36.9541, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Pernambuco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4503, 
+        "Recovered" : 0, 
+        "Deaths" : 146, 
+        "Active" : 4357, 
+        "Lat" : -7.7183, 
+        "Long_" : -42.7289, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Piaui"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 30501, 
+        "Recovered" : 20992, 
+        "Deaths" : 3851, 
+        "Active" : 5658, 
+        "Lat" : 45.0732745, 
+        "Long_" : 7.680687483, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Piemonte"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6942, 
+        "Recovered" : 0, 
+        "Deaths" : 497, 
+        "Active" : 6445, 
+        "Lat" : -5.133361, 
+        "Long_" : -80.335861, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Piura"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2843, 
+        "Recovered" : 1746, 
+        "Deaths" : 346, 
+        "Active" : 751, 
+        "Lat" : 19.0414, 
+        "Long_" : -98.2063, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Puebla"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4482, 
+        "Recovered" : 2699, 
+        "Deaths" : 500, 
+        "Active" : 1283, 
+        "Lat" : 41.12559576, 
+        "Long_" : 16.86736689, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Puglia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 322, 
+        "Recovered" : 0, 
+        "Deaths" : 6, 
+        "Active" : 316, 
+        "Lat" : -14.995827, 
+        "Long_" : -69.922726, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Puno"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 50232, 
+        "Recovered" : 15908, 
+        "Deaths" : 4363, 
+        "Active" : 29961, 
+        "Lat" : 52.9399, 
+        "Long_" : -73.5491, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Quebec"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1058, 
+        "Recovered" : 1045, 
+        "Deaths" : 7, 
+        "Active" : 6, 
+        "Lat" : -27.4698, 
+        "Long_" : 153.0251, 
+        "Country_Region" : "Australia", 
+        "Province_State" : "Queensland"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 833, 
+        "Recovered" : 494, 
+        "Deaths" : 100, 
+        "Active" : 239, 
+        "Lat" : 20.5888, 
+        "Long_" : -100.3899, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Queretaro"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 107, 
+        "Recovered" : 73, 
+        "Deaths" : 2, 
+        "Active" : 32, 
+        "Lat" : 4.461, 
+        "Long_" : -75.6674, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Quindio"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1815, 
+        "Recovered" : 1193, 
+        "Deaths" : 341, 
+        "Active" : 281, 
+        "Lat" : 19.1817, 
+        "Long_" : -88.4791, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Quintana Roo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 470, 
+        "Recovered" : 411, 
+        "Deaths" : 1, 
+        "Active" : 58, 
+        "Lat" : -21.1151, 
+        "Long_" : 55.5364, 
+        "Country_Region" : "France", 
+        "Province_State" : "Reunion"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6673, 
+        "Recovered" : 6145, 
+        "Deaths" : 230, 
+        "Active" : 298, 
+        "Lat" : 50.1183, 
+        "Long_" : 7.309, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Rheinland-Pfalz"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6463, 
+        "Recovered" : 0, 
+        "Deaths" : 268, 
+        "Active" : 6195, 
+        "Lat" : -5.4026, 
+        "Long_" : -36.9541, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Rio Grande do Norte"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8234, 
+        "Recovered" : 0, 
+        "Deaths" : 213, 
+        "Active" : 8021, 
+        "Lat" : -30.0346, 
+        "Long_" : -51.2177, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Rio Grande do Sul"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 47953, 
+        "Recovered" : 0, 
+        "Deaths" : 5079, 
+        "Active" : 42874, 
+        "Lat" : -22.9068, 
+        "Long_" : -43.1729, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Rio de Janeiro"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 249, 
+        "Recovered" : 206, 
+        "Deaths" : 8, 
+        "Active" : 35, 
+        "Lat" : 5.3158, 
+        "Long_" : -75.9928, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Risaralda"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4502, 
+        "Recovered" : 0, 
+        "Deaths" : 145, 
+        "Active" : 4357, 
+        "Lat" : -11.5057, 
+        "Long_" : -63.5806, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Rondonia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3098, 
+        "Recovered" : 0, 
+        "Deaths" : 108, 
+        "Active" : 2990, 
+        "Lat" : -2.7376, 
+        "Long_" : -62.0751, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Roraima"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2731, 
+        "Recovered" : 2489, 
+        "Deaths" : 165, 
+        "Active" : 77, 
+        "Lat" : 49.3964, 
+        "Long_" : 7.023, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Saarland"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5289, 
+        "Recovered" : 4830, 
+        "Deaths" : 210, 
+        "Active" : 249, 
+        "Lat" : 51.1045, 
+        "Long_" : 13.2017, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Sachsen"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1704, 
+        "Recovered" : 1596, 
+        "Deaths" : 55, 
+        "Active" : 53, 
+        "Lat" : 51.9503, 
+        "Long_" : 11.6923, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Sachsen-Anhalt"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1004, 
+        "Recovered" : 888, 
+        "Deaths" : 48, 
+        "Active" : 68, 
+        "Lat" : 35.997101, 
+        "Long_" : 139.347635, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Saitama"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 850, 
+        "Recovered" : 538, 
+        "Deaths" : 49, 
+        "Active" : 263, 
+        "Lat" : 22.1565, 
+        "Long_" : -100.9855, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "San Luis Potosi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1093, 
+        "Recovered" : 0, 
+        "Deaths" : 19, 
+        "Active" : 1074, 
+        "Lat" : -7.039531, 
+        "Long_" : -76.729127, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "San Martin"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8530, 
+        "Recovered" : 0, 
+        "Deaths" : 134, 
+        "Active" : 8396, 
+        "Lat" : -27.2423, 
+        "Long_" : -50.2189, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Santa Catarina"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 59, 
+        "Recovered" : 38, 
+        "Deaths" : 3, 
+        "Active" : 18, 
+        "Lat" : 6.6437, 
+        "Long_" : -73.6536, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Santander"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 101556, 
+        "Recovered" : 0, 
+        "Deaths" : 7275, 
+        "Active" : 94281, 
+        "Lat" : -23.5505, 
+        "Long_" : -46.6333, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Sao Paulo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1356, 
+        "Recovered" : 1036, 
+        "Deaths" : 130, 
+        "Active" : 190, 
+        "Lat" : 39.21531192, 
+        "Long_" : 9.110616306, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Sardegna"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 641, 
+        "Recovered" : 570, 
+        "Deaths" : 10, 
+        "Active" : 61, 
+        "Lat" : 52.9399, 
+        "Long_" : -106.4509, 
+        "Country_Region" : "Canada", 
+        "Province_State" : "Saskatchewan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3078, 
+        "Recovered" : 2800, 
+        "Deaths" : 144, 
+        "Active" : 134, 
+        "Lat" : 54.2194, 
+        "Long_" : 9.6961, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Schleswig-Holstein"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6462, 
+        "Recovered" : 0, 
+        "Deaths" : 142, 
+        "Active" : 6320, 
+        "Lat" : -10.5741, 
+        "Long_" : -37.3857, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Sergipe"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 308, 
+        "Recovered" : 305, 
+        "Deaths" : 3, 
+        "Active" : 0, 
+        "Lat" : 35.1917, 
+        "Long_" : 108.8701, 
+        "Country_Region" : "China", 
+        "Province_State" : "Shaanxi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 790, 
+        "Recovered" : 780, 
+        "Deaths" : 7, 
+        "Active" : 3, 
+        "Lat" : 36.3427, 
+        "Long_" : 118.1498, 
+        "Country_Region" : "China", 
+        "Province_State" : "Shandong"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 672, 
+        "Recovered" : 657, 
+        "Deaths" : 7, 
+        "Active" : 8, 
+        "Lat" : 31.202, 
+        "Long_" : 121.4491, 
+        "Country_Region" : "China", 
+        "Province_State" : "Shanghai"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 100, 
+        "Recovered" : 91, 
+        "Deaths" : 1, 
+        "Active" : 8, 
+        "Lat" : 35.215827, 
+        "Long_" : 136.138064, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Shiga"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 75, 
+        "Recovered" : 72, 
+        "Deaths" : 1, 
+        "Active" : 2, 
+        "Lat" : 34.916975, 
+        "Long_" : 138.407784, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Shizuoka"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 564, 
+        "Recovered" : 558, 
+        "Deaths" : 3, 
+        "Active" : 3, 
+        "Lat" : 30.6171, 
+        "Long_" : 102.7103, 
+        "Country_Region" : "China", 
+        "Province_State" : "Sichuan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3440, 
+        "Recovered" : 2031, 
+        "Deaths" : 272, 
+        "Active" : 1137, 
+        "Lat" : 38.11569725, 
+        "Long_" : 13.3623567, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Sicilia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3125, 
+        "Recovered" : 2193, 
+        "Deaths" : 460, 
+        "Active" : 472, 
+        "Lat" : 25.1721, 
+        "Long_" : -107.4795, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Sinaloa"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 77, 
+        "Recovered" : 60, 
+        "Deaths" : 15, 
+        "Active" : 2, 
+        "Lat" : 18.0425, 
+        "Long_" : -63.0548, 
+        "Country_Region" : "Netherlands", 
+        "Province_State" : "Sint Maarten"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1803, 
+        "Recovered" : 1317, 
+        "Deaths" : 102, 
+        "Active" : 384, 
+        "Lat" : 29.2972, 
+        "Long_" : -110.3309, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Sonora"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 440, 
+        "Recovered" : 435, 
+        "Deaths" : 4, 
+        "Active" : 1, 
+        "Lat" : -34.9285, 
+        "Long_" : 138.6007, 
+        "Country_Region" : "Australia", 
+        "Province_State" : "South Australia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 40, 
+        "Recovered" : 33, 
+        "Deaths" : 3, 
+        "Active" : 4, 
+        "Lat" : 18.0708, 
+        "Long_" : -63.0501, 
+        "Country_Region" : "France", 
+        "Province_State" : "St Martin"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3872, 
+        "Recovered" : 2639, 
+        "Deaths" : 485, 
+        "Active" : 748, 
+        "Lat" : 17.8409, 
+        "Long_" : -92.6189, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Tabasco"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 372, 
+        "Recovered" : 0, 
+        "Deaths" : 4, 
+        "Active" : 368, 
+        "Lat" : -17.644161, 
+        "Long_" : -70.27756, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Tacna"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1504, 
+        "Recovered" : 1081, 
+        "Deaths" : 102, 
+        "Active" : 321, 
+        "Lat" : 24.2669, 
+        "Long_" : -98.8363, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Tamaulipas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2093, 
+        "Recovered" : 0, 
+        "Deaths" : 14, 
+        "Active" : 2079, 
+        "Lat" : -19.9232, 
+        "Long_" : -69.5132, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Tarapaca"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 228, 
+        "Recovered" : 205, 
+        "Deaths" : 13, 
+        "Active" : 10, 
+        "Lat" : -42.8821, 
+        "Long_" : 147.3272, 
+        "Country_Region" : "Australia", 
+        "Province_State" : "Tasmania"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2961, 
+        "Recovered" : 2570, 
+        "Deaths" : 159, 
+        "Active" : 232, 
+        "Lat" : 51.011, 
+        "Long_" : 10.8453, 
+        "Country_Region" : "Germany", 
+        "Province_State" : "Thuringen"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 192, 
+        "Recovered" : 188, 
+        "Deaths" : 3, 
+        "Active" : 1, 
+        "Lat" : 39.3054, 
+        "Long_" : 117.323, 
+        "Country_Region" : "China", 
+        "Province_State" : "Tianjin"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 974, 
+        "Recovered" : 593, 
+        "Deaths" : 147, 
+        "Active" : 234, 
+        "Lat" : 19.3139, 
+        "Long_" : -98.2404, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Tlaxcala"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3611, 
+        "Recovered" : 0, 
+        "Deaths" : 70, 
+        "Active" : 3541, 
+        "Lat" : -10.1753, 
+        "Long_" : -48.2982, 
+        "Country_Region" : "Brazil", 
+        "Province_State" : "Tocantins"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5, 
+        "Recovered" : 4, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : 33.919178, 
+        "Long_" : 134.242091, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Tokushima"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5221, 
+        "Recovered" : 4501, 
+        "Deaths" : 302, 
+        "Active" : 418, 
+        "Lat" : 35.711343, 
+        "Long_" : 139.446921, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Tokyo"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 245, 
+        "Recovered" : 121, 
+        "Deaths" : 8, 
+        "Active" : 116, 
+        "Lat" : 4.0925, 
+        "Long_" : -75.1545, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Tolima"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 10088, 
+        "Recovered" : 7802, 
+        "Deaths" : 1031, 
+        "Active" : 1255, 
+        "Lat" : 43.76923077, 
+        "Long_" : 11.25588885, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Toscana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 227, 
+        "Recovered" : 187, 
+        "Deaths" : 22, 
+        "Active" : 18, 
+        "Lat" : 36.637464, 
+        "Long_" : 137.269346, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Toyama"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1219, 
+        "Recovered" : 0, 
+        "Deaths" : 69, 
+        "Active" : 1150, 
+        "Lat" : -3.857496, 
+        "Long_" : -80.545255, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Tumbes"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 12, 
+        "Recovered" : 10, 
+        "Deaths" : 1, 
+        "Active" : 1, 
+        "Lat" : 21.694, 
+        "Long_" : -71.7979, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : "Turks and Caicos Islands"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3530, 
+        "Recovered" : 0, 
+        "Deaths" : 105, 
+        "Active" : 3425, 
+        "Lat" : -9.621718, 
+        "Long_" : -73.444929, 
+        "Country_Region" : "Peru", 
+        "Province_State" : "Ucayali"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1431, 
+        "Recovered" : 1324, 
+        "Deaths" : 76, 
+        "Active" : 31, 
+        "Lat" : 43.10675841, 
+        "Long_" : 12.38824698, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Umbria"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1182, 
+        "Recovered" : 1020, 
+        "Deaths" : 143, 
+        "Active" : 19, 
+        "Lat" : 45.73750286, 
+        "Long_" : 7.320149366, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Valle d'Aosta"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2969, 
+        "Recovered" : 840, 
+        "Deaths" : 141, 
+        "Active" : 1988, 
+        "Lat" : 3.8009, 
+        "Long_" : -76.6413, 
+        "Country_Region" : "Colombia", 
+        "Province_State" : "Valle del Cauca"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2842, 
+        "Recovered" : 0, 
+        "Deaths" : 61, 
+        "Active" : 2781, 
+        "Lat" : -33.0472, 
+        "Long_" : -71.6127, 
+        "Country_Region" : "Chile", 
+        "Province_State" : "Valparaiso"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 19134, 
+        "Recovered" : 15379, 
+        "Deaths" : 1906, 
+        "Active" : 1849, 
+        "Lat" : 45.43490485, 
+        "Long_" : 12.33845213, 
+        "Country_Region" : "Italy", 
+        "Province_State" : "Veneto"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3562, 
+        "Recovered" : 2438, 
+        "Deaths" : 495, 
+        "Active" : 629, 
+        "Lat" : 19.1738, 
+        "Long_" : -96.1342, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Veracruz"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1645, 
+        "Recovered" : 1553, 
+        "Deaths" : 19, 
+        "Active" : 73, 
+        "Lat" : -37.8136, 
+        "Long_" : 144.9631, 
+        "Country_Region" : "Australia", 
+        "Province_State" : "Victoria"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 63, 
+        "Recovered" : 57, 
+        "Deaths" : 3, 
+        "Active" : 3, 
+        "Lat" : 33.911879, 
+        "Long_" : 135.505446, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Wakayama"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 585, 
+        "Recovered" : 551, 
+        "Deaths" : 9, 
+        "Active" : 25, 
+        "Lat" : -31.9505, 
+        "Long_" : 115.8605, 
+        "Country_Region" : "Australia", 
+        "Province_State" : "Western Australia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 76, 
+        "Recovered" : 73, 
+        "Deaths" : 3, 
+        "Active" : 0, 
+        "Lat" : 41.1129, 
+        "Long_" : 85.2401, 
+        "Country_Region" : "China", 
+        "Province_State" : "Xinjiang"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 64, 
+        "Recovered" : 57, 
+        "Deaths" : 1, 
+        "Active" : 6, 
+        "Lat" : 35.612364, 
+        "Long_" : 138.611489, 
+        "Country_Region" : "Japan", 
+        "Province_State" : "Yamanashi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1696, 
+        "Recovered" : 1177, 
+        "Deaths" : 142, 
+        "Active" : 377, 
+        "Lat" : 20.7099, 
+        "Long_" : -89.0943, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Yucatan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 185, 
+        "Recovered" : 183, 
+        "Deaths" : 2, 
+        "Active" : 0, 
+        "Lat" : 24.974, 
+        "Long_" : 101.487, 
+        "Country_Region" : "China", 
+        "Province_State" : "Yunnan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 279, 
+        "Recovered" : 185, 
+        "Deaths" : 32, 
+        "Active" : 62, 
+        "Lat" : 22.7709, 
+        "Long_" : -102.5832, 
+        "Country_Region" : "Mexico", 
+        "Province_State" : "Zacatecas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1268, 
+        "Recovered" : 1267, 
+        "Deaths" : 1, 
+        "Active" : 0, 
+        "Lat" : 29.1832, 
+        "Long_" : 120.0934, 
+        "Country_Region" : "China", 
+        "Province_State" : "Zhejiang"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 13659, 
+        "Recovered" : 1259, 
+        "Deaths" : 246, 
+        "Active" : 12154, 
+        "Lat" : 33.93911, 
+        "Long_" : 67.709953, 
+        "Country_Region" : "Afghanistan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1099, 
+        "Recovered" : 851, 
+        "Deaths" : 33, 
+        "Active" : 215, 
+        "Lat" : 41.1533, 
+        "Long_" : 20.1683, 
+        "Country_Region" : "Albania", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9134, 
+        "Recovered" : 5422, 
+        "Deaths" : 638, 
+        "Active" : 3074, 
+        "Lat" : 28.0339, 
+        "Long_" : 1.6596, 
+        "Country_Region" : "Algeria", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 764, 
+        "Recovered" : 684, 
+        "Deaths" : 51, 
+        "Active" : 29, 
+        "Lat" : 42.5063, 
+        "Long_" : 1.5218, 
+        "Country_Region" : "Andorra", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 81, 
+        "Recovered" : 18, 
+        "Deaths" : 4, 
+        "Active" : 59, 
+        "Lat" : -11.2027, 
+        "Long_" : 17.8739, 
+        "Country_Region" : "Angola", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 25, 
+        "Recovered" : 19, 
+        "Deaths" : 3, 
+        "Active" : 3, 
+        "Lat" : 17.0608, 
+        "Long_" : -61.7964, 
+        "Country_Region" : "Antigua and Barbuda", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 15419, 
+        "Recovered" : 4788, 
+        "Deaths" : 520, 
+        "Active" : 10111, 
+        "Lat" : -38.4161, 
+        "Long_" : -63.6167, 
+        "Country_Region" : "Argentina", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8676, 
+        "Recovered" : 3297, 
+        "Deaths" : 120, 
+        "Active" : 5259, 
+        "Lat" : 40.0691, 
+        "Long_" : 45.0382, 
+        "Country_Region" : "Armenia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 16655, 
+        "Recovered" : 15347, 
+        "Deaths" : 668, 
+        "Active" : 640, 
+        "Lat" : 47.5162, 
+        "Long_" : 14.5501, 
+        "Country_Region" : "Austria", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4989, 
+        "Recovered" : 3125, 
+        "Deaths" : 58, 
+        "Active" : 1806, 
+        "Lat" : 40.1431, 
+        "Long_" : 47.5769, 
+        "Country_Region" : "Azerbaijan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 102, 
+        "Recovered" : 48, 
+        "Deaths" : 11, 
+        "Active" : 43, 
+        "Lat" : 25.025885, 
+        "Long_" : -78.035889, 
+        "Country_Region" : "Bahamas", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 10449, 
+        "Recovered" : 5700, 
+        "Deaths" : 15, 
+        "Active" : 4734, 
+        "Lat" : 26.0275, 
+        "Long_" : 50.55, 
+        "Country_Region" : "Bahrain", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 42844, 
+        "Recovered" : 9015, 
+        "Deaths" : 582, 
+        "Active" : 33247, 
+        "Lat" : 23.685, 
+        "Long_" : 90.3563, 
+        "Country_Region" : "Bangladesh", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 92, 
+        "Recovered" : 76, 
+        "Deaths" : 7, 
+        "Active" : 9, 
+        "Lat" : 13.1939, 
+        "Long_" : -59.5432, 
+        "Country_Region" : "Barbados", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 40764, 
+        "Recovered" : 17390, 
+        "Deaths" : 224, 
+        "Active" : 23150, 
+        "Lat" : 53.7098, 
+        "Long_" : 27.9534, 
+        "Country_Region" : "Belarus", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 58061, 
+        "Recovered" : 15682, 
+        "Deaths" : 9430, 
+        "Active" : 32949, 
+        "Lat" : 50.8333, 
+        "Long_" : 4.469936, 
+        "Country_Region" : "Belgium", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 18, 
+        "Recovered" : 16, 
+        "Deaths" : 2, 
+        "Active" : 0, 
+        "Lat" : 17.1899, 
+        "Long_" : -88.4976, 
+        "Country_Region" : "Belize", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 224, 
+        "Recovered" : 136, 
+        "Deaths" : 3, 
+        "Active" : 85, 
+        "Lat" : 9.3077, 
+        "Long_" : 2.3158, 
+        "Country_Region" : "Benin", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8731, 
+        "Recovered" : 749, 
+        "Deaths" : 300, 
+        "Active" : 7682, 
+        "Lat" : -16.2902, 
+        "Long_" : -63.5887, 
+        "Country_Region" : "Bolivia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2485, 
+        "Recovered" : 1803, 
+        "Deaths" : 153, 
+        "Active" : 529, 
+        "Lat" : 43.9159, 
+        "Long_" : 17.6791, 
+        "Country_Region" : "Bosnia and Herzegovina", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 35, 
+        "Recovered" : 20, 
+        "Deaths" : 1, 
+        "Active" : 14, 
+        "Lat" : -22.3285, 
+        "Long_" : 24.6849, 
+        "Country_Region" : "Botswana", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 141, 
+        "Recovered" : 138, 
+        "Deaths" : 2, 
+        "Active" : 1, 
+        "Lat" : 4.5353, 
+        "Long_" : 114.7277, 
+        "Country_Region" : "Brunei", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2485, 
+        "Recovered" : 1016, 
+        "Deaths" : 136, 
+        "Active" : 1333, 
+        "Lat" : 42.7339, 
+        "Long_" : 25.4858, 
+        "Country_Region" : "Bulgaria", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 847, 
+        "Recovered" : 720, 
+        "Deaths" : 53, 
+        "Active" : 74, 
+        "Lat" : 12.2383, 
+        "Long_" : -1.5616, 
+        "Country_Region" : "Burkina Faso", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 207, 
+        "Recovered" : 130, 
+        "Deaths" : 6, 
+        "Active" : 71, 
+        "Lat" : 21.9162, 
+        "Long_" : 95.956, 
+        "Country_Region" : "Burma", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 42, 
+        "Recovered" : 20, 
+        "Deaths" : 1, 
+        "Active" : 21, 
+        "Lat" : -3.3731, 
+        "Long_" : 29.9189, 
+        "Country_Region" : "Burundi", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 405, 
+        "Recovered" : 155, 
+        "Deaths" : 4, 
+        "Active" : 246, 
+        "Lat" : 16.5388, 
+        "Long_" : -23.0418, 
+        "Country_Region" : "Cabo Verde", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5436, 
+        "Recovered" : 3326, 
+        "Deaths" : 177, 
+        "Active" : 1933, 
+        "Lat" : 3.848, 
+        "Long_" : 11.5021, 
+        "Country_Region" : "Cameroon", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 874, 
+        "Recovered" : 23, 
+        "Deaths" : 1, 
+        "Active" : 850, 
+        "Lat" : 6.6111, 
+        "Long_" : 20.9394, 
+        "Country_Region" : "Central African Republic", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 759, 
+        "Recovered" : 444, 
+        "Deaths" : 65, 
+        "Active" : 250, 
+        "Lat" : 15.4542, 
+        "Long_" : 18.7322, 
+        "Country_Region" : "Chad", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 87, 
+        "Recovered" : 24, 
+        "Deaths" : 2, 
+        "Active" : 61, 
+        "Lat" : -11.6455, 
+        "Long_" : 43.3333, 
+        "Country_Region" : "Comoros", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 571, 
+        "Recovered" : 161, 
+        "Deaths" : 19, 
+        "Active" : 391, 
+        "Lat" : -0.228, 
+        "Long_" : 15.8277, 
+        "Country_Region" : "Congo (Brazzaville)", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2833, 
+        "Recovered" : 400, 
+        "Deaths" : 69, 
+        "Active" : 2364, 
+        "Lat" : -4.0383, 
+        "Long_" : 21.7587, 
+        "Country_Region" : "Congo (Kinshasa)", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1022, 
+        "Recovered" : 653, 
+        "Deaths" : 10, 
+        "Active" : 359, 
+        "Lat" : 9.7489, 
+        "Long_" : -83.7534, 
+        "Country_Region" : "Costa Rica", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2750, 
+        "Recovered" : 1370, 
+        "Deaths" : 32, 
+        "Active" : 1348, 
+        "Lat" : 7.54, 
+        "Long_" : -5.5471, 
+        "Country_Region" : "Cote d'Ivoire", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2245, 
+        "Recovered" : 2059, 
+        "Deaths" : 103, 
+        "Active" : 83, 
+        "Lat" : 45.1, 
+        "Long_" : 15.2, 
+        "Country_Region" : "Croatia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2005, 
+        "Recovered" : 1760, 
+        "Deaths" : 82, 
+        "Active" : 163, 
+        "Lat" : 21.521757, 
+        "Long_" : -77.781167, 
+        "Country_Region" : "Cuba", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 942, 
+        "Recovered" : 784, 
+        "Deaths" : 17, 
+        "Active" : 141, 
+        "Lat" : 35.1264, 
+        "Long_" : 33.4299, 
+        "Country_Region" : "Cyprus", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9196, 
+        "Recovered" : 6500, 
+        "Deaths" : 319, 
+        "Active" : 2377, 
+        "Lat" : 49.8175, 
+        "Long_" : 15.473, 
+        "Country_Region" : "Czechia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 11593, 
+        "Recovered" : 10240, 
+        "Deaths" : 568, 
+        "Active" : 785, 
+        "Lat" : 56.2639, 
+        "Long_" : 9.5018, 
+        "Country_Region" : "Denmark", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 712, 
+        "Recovered" : 651, 
+        "Deaths" : 13, 
+        "Active" : 48, 
+        "Lat" : null, 
+        "Long_" : null, 
+        "Country_Region" : "Diamond Princess", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2914, 
+        "Recovered" : 1241, 
+        "Deaths" : 20, 
+        "Active" : 1653, 
+        "Lat" : 11.8251, 
+        "Long_" : 42.5903, 
+        "Country_Region" : "Djibouti", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 16531, 
+        "Recovered" : 9266, 
+        "Deaths" : 488, 
+        "Active" : 6777, 
+        "Lat" : 18.7357, 
+        "Long_" : -70.1627, 
+        "Country_Region" : "Dominican Republic", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 38571, 
+        "Recovered" : 19190, 
+        "Deaths" : 3334, 
+        "Active" : 16047, 
+        "Lat" : -1.8312, 
+        "Long_" : -78.1834, 
+        "Country_Region" : "Ecuador", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 22082, 
+        "Recovered" : 5511, 
+        "Deaths" : 879, 
+        "Active" : 15692, 
+        "Lat" : 26.820553, 
+        "Long_" : 30.802498, 
+        "Country_Region" : "Egypt", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2278, 
+        "Recovered" : 1015, 
+        "Deaths" : 42, 
+        "Active" : 1221, 
+        "Lat" : 13.7942, 
+        "Long_" : -88.8965, 
+        "Country_Region" : "El Salvador", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1306, 
+        "Recovered" : 200, 
+        "Deaths" : 12, 
+        "Active" : 1094, 
+        "Lat" : 1.6508, 
+        "Long_" : 10.2679, 
+        "Country_Region" : "Equatorial Guinea", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1859, 
+        "Recovered" : 1610, 
+        "Deaths" : 67, 
+        "Active" : 182, 
+        "Lat" : 58.5953, 
+        "Long_" : 25.0136, 
+        "Country_Region" : "Estonia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 279, 
+        "Recovered" : 168, 
+        "Deaths" : 2, 
+        "Active" : 109, 
+        "Lat" : -26.5225, 
+        "Long_" : 31.4659, 
+        "Country_Region" : "Eswatini", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 968, 
+        "Recovered" : 197, 
+        "Deaths" : 8, 
+        "Active" : 763, 
+        "Lat" : 9.145, 
+        "Long_" : 40.4897, 
+        "Country_Region" : "Ethiopia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6776, 
+        "Recovered" : 5500, 
+        "Deaths" : 314, 
+        "Active" : 962, 
+        "Lat" : 61.92411, 
+        "Long_" : 25.748151, 
+        "Country_Region" : "Finland", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 183816, 
+        "Recovered" : 65599, 
+        "Deaths" : 28663, 
+        "Active" : 89554, 
+        "Lat" : 46.2276, 
+        "Long_" : 2.2137, 
+        "Country_Region" : "France", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2613, 
+        "Recovered" : 709, 
+        "Deaths" : 15, 
+        "Active" : 1889, 
+        "Lat" : -0.8037, 
+        "Long_" : 11.6094, 
+        "Country_Region" : "Gabon", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 25, 
+        "Recovered" : 20, 
+        "Deaths" : 1, 
+        "Active" : 4, 
+        "Lat" : 13.4432, 
+        "Long_" : -15.3101, 
+        "Country_Region" : "Gambia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 746, 
+        "Recovered" : 576, 
+        "Deaths" : 12, 
+        "Active" : 158, 
+        "Lat" : 42.3154, 
+        "Long_" : 43.3569, 
+        "Country_Region" : "Georgia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 7616, 
+        "Recovered" : 2421, 
+        "Deaths" : 34, 
+        "Active" : 5161, 
+        "Lat" : 7.9465, 
+        "Long_" : -1.0232, 
+        "Country_Region" : "Ghana", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2909, 
+        "Recovered" : 1374, 
+        "Deaths" : 175, 
+        "Active" : 1360, 
+        "Lat" : 39.0742, 
+        "Long_" : 21.8243, 
+        "Country_Region" : "Greece", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4607, 
+        "Recovered" : 648, 
+        "Deaths" : 90, 
+        "Active" : 3869, 
+        "Lat" : 15.7835, 
+        "Long_" : -90.2308, 
+        "Country_Region" : "Guatemala", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3656, 
+        "Recovered" : 2000, 
+        "Deaths" : 22, 
+        "Active" : 1634, 
+        "Lat" : 9.9456, 
+        "Long_" : -9.6966, 
+        "Country_Region" : "Guinea", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1256, 
+        "Recovered" : 42, 
+        "Deaths" : 8, 
+        "Active" : 1206, 
+        "Lat" : 11.8037, 
+        "Long_" : -15.1804, 
+        "Country_Region" : "Guinea-Bissau", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 150, 
+        "Recovered" : 67, 
+        "Deaths" : 11, 
+        "Active" : 72, 
+        "Lat" : 4.860416, 
+        "Long_" : -58.93018, 
+        "Country_Region" : "Guyana", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1584, 
+        "Recovered" : 22, 
+        "Deaths" : 35, 
+        "Active" : 1527, 
+        "Lat" : 18.9712, 
+        "Long_" : -72.2852, 
+        "Country_Region" : "Haiti", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4752, 
+        "Recovered" : 519, 
+        "Deaths" : 196, 
+        "Active" : 4037, 
+        "Lat" : 15.2, 
+        "Long_" : -86.2419, 
+        "Country_Region" : "Honduras", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3841, 
+        "Recovered" : 2024, 
+        "Deaths" : 517, 
+        "Active" : 1300, 
+        "Lat" : 47.1625, 
+        "Long_" : 19.5033, 
+        "Country_Region" : "Hungary", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1805, 
+        "Recovered" : 1794, 
+        "Deaths" : 10, 
+        "Active" : 1, 
+        "Lat" : 64.9631, 
+        "Long_" : -19.0208, 
+        "Country_Region" : "Iceland", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 173491, 
+        "Recovered" : 82627, 
+        "Deaths" : 4980, 
+        "Active" : 85884, 
+        "Lat" : 20.593684, 
+        "Long_" : 78.96288, 
+        "Country_Region" : "India", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 25216, 
+        "Recovered" : 6492, 
+        "Deaths" : 1520, 
+        "Active" : 17204, 
+        "Lat" : -0.7893, 
+        "Long_" : 113.9213, 
+        "Country_Region" : "Indonesia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 146668, 
+        "Recovered" : 114931, 
+        "Deaths" : 7677, 
+        "Active" : 24060, 
+        "Lat" : 32.427908, 
+        "Long_" : 53.688046, 
+        "Country_Region" : "Iran", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 5873, 
+        "Recovered" : 3044, 
+        "Deaths" : 185, 
+        "Active" : 2644, 
+        "Lat" : 33.223191, 
+        "Long_" : 43.679291, 
+        "Country_Region" : "Iraq", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 24876, 
+        "Recovered" : 22089, 
+        "Deaths" : 1645, 
+        "Active" : 1142, 
+        "Lat" : 53.1424, 
+        "Long_" : -7.6921, 
+        "Country_Region" : "Ireland", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 16987, 
+        "Recovered" : 14776, 
+        "Deaths" : 284, 
+        "Active" : 1927, 
+        "Lat" : 31.046051, 
+        "Long_" : 34.851612, 
+        "Country_Region" : "Israel", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 575, 
+        "Recovered" : 289, 
+        "Deaths" : 9, 
+        "Active" : 277, 
+        "Lat" : 18.1096, 
+        "Long_" : -77.2975, 
+        "Country_Region" : "Jamaica", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 730, 
+        "Recovered" : 507, 
+        "Deaths" : 9, 
+        "Active" : 214, 
+        "Lat" : 31.24, 
+        "Long_" : 36.51, 
+        "Country_Region" : "Jordan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9932, 
+        "Recovered" : 5057, 
+        "Deaths" : 37, 
+        "Active" : 4838, 
+        "Lat" : 48.0196, 
+        "Long_" : 66.9237, 
+        "Country_Region" : "Kazakhstan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1745, 
+        "Recovered" : 438, 
+        "Deaths" : 62, 
+        "Active" : 1245, 
+        "Lat" : -0.0236, 
+        "Long_" : 37.9062, 
+        "Country_Region" : "Kenya", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 11441, 
+        "Recovered" : 10398, 
+        "Deaths" : 269, 
+        "Active" : 774, 
+        "Lat" : 35.907757, 
+        "Long_" : 127.766922, 
+        "Country_Region" : "Korea, South", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1048, 
+        "Recovered" : 801, 
+        "Deaths" : 30, 
+        "Active" : 217, 
+        "Lat" : 42.602636, 
+        "Long_" : 20.902977, 
+        "Country_Region" : "Kosovo", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 25184, 
+        "Recovered" : 9273, 
+        "Deaths" : 194, 
+        "Active" : 15717, 
+        "Lat" : 29.31166, 
+        "Long_" : 47.481766, 
+        "Country_Region" : "Kuwait", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1662, 
+        "Recovered" : 1088, 
+        "Deaths" : 16, 
+        "Active" : 558, 
+        "Lat" : 41.20438, 
+        "Long_" : 74.766098, 
+        "Country_Region" : "Kyrgyzstan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1064, 
+        "Recovered" : 745, 
+        "Deaths" : 24, 
+        "Active" : 295, 
+        "Lat" : 56.8796, 
+        "Long_" : 24.6032, 
+        "Country_Region" : "Latvia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1172, 
+        "Recovered" : 705, 
+        "Deaths" : 26, 
+        "Active" : 441, 
+        "Lat" : 33.8547, 
+        "Long_" : 35.8623, 
+        "Country_Region" : "Lebanon", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 273, 
+        "Recovered" : 146, 
+        "Deaths" : 27, 
+        "Active" : 100, 
+        "Lat" : 6.428055, 
+        "Long_" : -9.429499, 
+        "Country_Region" : "Liberia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 118, 
+        "Recovered" : 41, 
+        "Deaths" : 5, 
+        "Active" : 72, 
+        "Lat" : 26.3351, 
+        "Long_" : 17.228331, 
+        "Country_Region" : "Libya", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 82, 
+        "Recovered" : 55, 
+        "Deaths" : 1, 
+        "Active" : 26, 
+        "Lat" : 47.14, 
+        "Long_" : 9.55, 
+        "Country_Region" : "Liechtenstein", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1662, 
+        "Recovered" : 1216, 
+        "Deaths" : 68, 
+        "Active" : 378, 
+        "Lat" : 55.1694, 
+        "Long_" : 23.8813, 
+        "Country_Region" : "Lithuania", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4012, 
+        "Recovered" : 3815, 
+        "Deaths" : 110, 
+        "Active" : 87, 
+        "Lat" : 49.8153, 
+        "Long_" : 6.1296, 
+        "Country_Region" : "Luxembourg", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9, 
+        "Recovered" : 0, 
+        "Deaths" : 2, 
+        "Active" : 7, 
+        "Lat" : null, 
+        "Long_" : null, 
+        "Country_Region" : "MS Zaandam", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 698, 
+        "Recovered" : 164, 
+        "Deaths" : 5, 
+        "Active" : 529, 
+        "Lat" : -18.766947, 
+        "Long_" : 46.869107, 
+        "Country_Region" : "Madagascar", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 273, 
+        "Recovered" : 42, 
+        "Deaths" : 4, 
+        "Active" : 227, 
+        "Lat" : -13.254308, 
+        "Long_" : 34.301525, 
+        "Country_Region" : "Malawi", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 7732, 
+        "Recovered" : 6235, 
+        "Deaths" : 115, 
+        "Active" : 1382, 
+        "Lat" : 4.210484, 
+        "Long_" : 101.975766, 
+        "Country_Region" : "Malaysia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1591, 
+        "Recovered" : 197, 
+        "Deaths" : 5, 
+        "Active" : 1389, 
+        "Lat" : 3.2028, 
+        "Long_" : 73.2207, 
+        "Country_Region" : "Maldives", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1226, 
+        "Recovered" : 669, 
+        "Deaths" : 73, 
+        "Active" : 484, 
+        "Lat" : 17.570692, 
+        "Long_" : -3.996166, 
+        "Country_Region" : "Mali", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 616, 
+        "Recovered" : 514, 
+        "Deaths" : 9, 
+        "Active" : 93, 
+        "Lat" : 35.9375, 
+        "Long_" : 14.3754, 
+        "Country_Region" : "Malta", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 423, 
+        "Recovered" : 21, 
+        "Deaths" : 20, 
+        "Active" : 382, 
+        "Lat" : 21.0079, 
+        "Long_" : -10.9408, 
+        "Country_Region" : "Mauritania", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 335, 
+        "Recovered" : 322, 
+        "Deaths" : 10, 
+        "Active" : 3, 
+        "Lat" : -20.348404, 
+        "Long_" : 57.552152, 
+        "Country_Region" : "Mauritius", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 7896, 
+        "Recovered" : 4278, 
+        "Deaths" : 288, 
+        "Active" : 3330, 
+        "Lat" : 47.4116, 
+        "Long_" : 28.3699, 
+        "Country_Region" : "Moldova", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 98, 
+        "Recovered" : 90, 
+        "Deaths" : 4, 
+        "Active" : 4, 
+        "Lat" : 43.7333, 
+        "Long_" : 7.4167, 
+        "Country_Region" : "Monaco", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 324, 
+        "Recovered" : 315, 
+        "Deaths" : 9, 
+        "Active" : 0, 
+        "Lat" : 42.708678, 
+        "Long_" : 19.37439, 
+        "Country_Region" : "Montenegro", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 7714, 
+        "Recovered" : 5271, 
+        "Deaths" : 202, 
+        "Active" : 2241, 
+        "Lat" : 31.7917, 
+        "Long_" : -7.0926, 
+        "Country_Region" : "Morocco", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 234, 
+        "Recovered" : 84, 
+        "Deaths" : 2, 
+        "Active" : 148, 
+        "Lat" : -18.665695, 
+        "Long_" : 35.529562, 
+        "Country_Region" : "Mozambique", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1212, 
+        "Recovered" : 206, 
+        "Deaths" : 6, 
+        "Active" : 1000, 
+        "Lat" : 28.1667, 
+        "Long_" : 84.25, 
+        "Country_Region" : "Nepal", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 46126, 
+        "Recovered" : 0, 
+        "Deaths" : 5931, 
+        "Active" : 40195, 
+        "Lat" : 52.1326, 
+        "Long_" : 5.2913, 
+        "Country_Region" : "Netherlands", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1504, 
+        "Recovered" : 1481, 
+        "Deaths" : 22, 
+        "Active" : 1, 
+        "Lat" : -40.9006, 
+        "Long_" : 174.886, 
+        "Country_Region" : "New Zealand", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 759, 
+        "Recovered" : 370, 
+        "Deaths" : 35, 
+        "Active" : 354, 
+        "Lat" : 12.865416, 
+        "Long_" : -85.207229, 
+        "Country_Region" : "Nicaragua", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 955, 
+        "Recovered" : 813, 
+        "Deaths" : 64, 
+        "Active" : 78, 
+        "Lat" : 17.607789, 
+        "Long_" : 8.081666, 
+        "Country_Region" : "Niger", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9302, 
+        "Recovered" : 2697, 
+        "Deaths" : 261, 
+        "Active" : 6344, 
+        "Lat" : 9.082, 
+        "Long_" : 8.6753, 
+        "Country_Region" : "Nigeria", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2129, 
+        "Recovered" : 1516, 
+        "Deaths" : 126, 
+        "Active" : 487, 
+        "Lat" : 41.6086, 
+        "Long_" : 21.7453, 
+        "Country_Region" : "North Macedonia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8422, 
+        "Recovered" : 7727, 
+        "Deaths" : 236, 
+        "Active" : 459, 
+        "Lat" : 60.472, 
+        "Long_" : 8.4689, 
+        "Country_Region" : "Norway", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9820, 
+        "Recovered" : 2396, 
+        "Deaths" : 40, 
+        "Active" : 7384, 
+        "Lat" : 21.512583, 
+        "Long_" : 55.923255, 
+        "Country_Region" : "Oman", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 64028, 
+        "Recovered" : 22305, 
+        "Deaths" : 1317, 
+        "Active" : 40406, 
+        "Lat" : 30.3753, 
+        "Long_" : 69.3451, 
+        "Country_Region" : "Pakistan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 12531, 
+        "Recovered" : 7540, 
+        "Deaths" : 326, 
+        "Active" : 4665, 
+        "Lat" : 8.538, 
+        "Long_" : -80.7821, 
+        "Country_Region" : "Panama", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 917, 
+        "Recovered" : 413, 
+        "Deaths" : 11, 
+        "Active" : 493, 
+        "Lat" : -23.4425, 
+        "Long_" : -58.4438, 
+        "Country_Region" : "Paraguay", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 16634, 
+        "Recovered" : 3720, 
+        "Deaths" : 942, 
+        "Active" : 11972, 
+        "Lat" : 12.879721, 
+        "Long_" : 121.774017, 
+        "Country_Region" : "Philippines", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 23155, 
+        "Recovered" : 10692, 
+        "Deaths" : 1051, 
+        "Active" : 11412, 
+        "Lat" : 51.9194, 
+        "Long_" : 19.1451, 
+        "Country_Region" : "Poland", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 31946, 
+        "Recovered" : 18911, 
+        "Deaths" : 1383, 
+        "Active" : 11652, 
+        "Lat" : 39.3999, 
+        "Long_" : -8.2245, 
+        "Country_Region" : "Portugal", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 52907, 
+        "Recovered" : 20604, 
+        "Deaths" : 36, 
+        "Active" : 32267, 
+        "Lat" : 25.3548, 
+        "Long_" : 51.1839, 
+        "Country_Region" : "Qatar", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 18982, 
+        "Recovered" : 12829, 
+        "Deaths" : 1248, 
+        "Active" : 4905, 
+        "Lat" : 45.9432, 
+        "Long_" : 24.9668, 
+        "Country_Region" : "Romania", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 387623, 
+        "Recovered" : 159257, 
+        "Deaths" : 4374, 
+        "Active" : 223992, 
+        "Lat" : 61.52401, 
+        "Long_" : 105.318756, 
+        "Country_Region" : "Russia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 671, 
+        "Recovered" : 344, 
+        "Deaths" : 42, 
+        "Active" : 285, 
+        "Lat" : 43.9424, 
+        "Long_" : 12.4578, 
+        "Country_Region" : "San Marino", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 463, 
+        "Recovered" : 68, 
+        "Deaths" : 12, 
+        "Active" : 383, 
+        "Lat" : 0.18636, 
+        "Long_" : 6.613081, 
+        "Country_Region" : "Sao Tome and Principe", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 81766, 
+        "Recovered" : 57013, 
+        "Deaths" : 458, 
+        "Active" : 24295, 
+        "Lat" : 23.885942, 
+        "Long_" : 45.079162, 
+        "Country_Region" : "Saudi Arabia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3429, 
+        "Recovered" : 1738, 
+        "Deaths" : 41, 
+        "Active" : 1650, 
+        "Lat" : 14.4974, 
+        "Long_" : -14.4524, 
+        "Country_Region" : "Senegal", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 11354, 
+        "Recovered" : 6524, 
+        "Deaths" : 242, 
+        "Active" : 4588, 
+        "Lat" : 44.0165, 
+        "Long_" : 21.0059, 
+        "Country_Region" : "Serbia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 829, 
+        "Recovered" : 386, 
+        "Deaths" : 45, 
+        "Active" : 398, 
+        "Lat" : 8.460555, 
+        "Long_" : -11.779889, 
+        "Country_Region" : "Sierra Leone", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 33860, 
+        "Recovered" : 19631, 
+        "Deaths" : 23, 
+        "Active" : 14206, 
+        "Lat" : 1.2833, 
+        "Long_" : 103.8333, 
+        "Country_Region" : "Singapore", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1520, 
+        "Recovered" : 1338, 
+        "Deaths" : 28, 
+        "Active" : 154, 
+        "Lat" : 48.669, 
+        "Long_" : 19.699, 
+        "Country_Region" : "Slovakia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1473, 
+        "Recovered" : 1357, 
+        "Deaths" : 108, 
+        "Active" : 8, 
+        "Lat" : 46.1512, 
+        "Long_" : 14.9955, 
+        "Country_Region" : "Slovenia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1828, 
+        "Recovered" : 310, 
+        "Deaths" : 72, 
+        "Active" : 1446, 
+        "Lat" : 5.152149, 
+        "Long_" : 46.199616, 
+        "Country_Region" : "Somalia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 29240, 
+        "Recovered" : 15093, 
+        "Deaths" : 611, 
+        "Active" : 13536, 
+        "Lat" : -30.5595, 
+        "Long_" : 22.9375, 
+        "Country_Region" : "South Africa", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 994, 
+        "Recovered" : 6, 
+        "Deaths" : 10, 
+        "Active" : 978, 
+        "Lat" : 6.877, 
+        "Long_" : 31.307, 
+        "Country_Region" : "South Sudan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1558, 
+        "Recovered" : 754, 
+        "Deaths" : 10, 
+        "Active" : 794, 
+        "Lat" : 7.873054, 
+        "Long_" : 80.771797, 
+        "Country_Region" : "Sri Lanka", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4521, 
+        "Recovered" : 816, 
+        "Deaths" : 233, 
+        "Active" : 3472, 
+        "Lat" : 12.8628, 
+        "Long_" : 30.2176, 
+        "Country_Region" : "Sudan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 12, 
+        "Recovered" : 9, 
+        "Deaths" : 1, 
+        "Active" : 2, 
+        "Lat" : 3.9193, 
+        "Long_" : -56.0278, 
+        "Country_Region" : "Suriname", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 36476, 
+        "Recovered" : 4971, 
+        "Deaths" : 4350, 
+        "Active" : 27155, 
+        "Lat" : 60.128161, 
+        "Long_" : 18.643501, 
+        "Country_Region" : "Sweden", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 30828, 
+        "Recovered" : 28300, 
+        "Deaths" : 1919, 
+        "Active" : 609, 
+        "Lat" : 46.8182, 
+        "Long_" : 8.2275, 
+        "Country_Region" : "Switzerland", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 122, 
+        "Recovered" : 43, 
+        "Deaths" : 4, 
+        "Active" : 75, 
+        "Lat" : 34.802075, 
+        "Long_" : 38.996815, 
+        "Country_Region" : "Syria", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 442, 
+        "Recovered" : 420, 
+        "Deaths" : 7, 
+        "Active" : 15, 
+        "Lat" : 23.7, 
+        "Long_" : 121, 
+        "Country_Region" : "Taiwan*", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3686, 
+        "Recovered" : 1769, 
+        "Deaths" : 47, 
+        "Active" : 1870, 
+        "Lat" : 38.861034, 
+        "Long_" : 71.276093, 
+        "Country_Region" : "Tajikistan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 509, 
+        "Recovered" : 183, 
+        "Deaths" : 21, 
+        "Active" : 305, 
+        "Lat" : -6.369028, 
+        "Long_" : 34.888822, 
+        "Country_Region" : "Tanzania", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3076, 
+        "Recovered" : 2945, 
+        "Deaths" : 57, 
+        "Active" : 74, 
+        "Lat" : 15.870032, 
+        "Long_" : 100.992541, 
+        "Country_Region" : "Thailand", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 428, 
+        "Recovered" : 202, 
+        "Deaths" : 13, 
+        "Active" : 213, 
+        "Lat" : 8.6195, 
+        "Long_" : 0.8248, 
+        "Country_Region" : "Togo", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 116, 
+        "Recovered" : 108, 
+        "Deaths" : 8, 
+        "Active" : 0, 
+        "Lat" : 10.6918, 
+        "Long_" : -61.2225, 
+        "Country_Region" : "Trinidad and Tobago", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1071, 
+        "Recovered" : 946, 
+        "Deaths" : 48, 
+        "Active" : 77, 
+        "Lat" : 33.886917, 
+        "Long_" : 9.537499, 
+        "Country_Region" : "Tunisia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 162120, 
+        "Recovered" : 125963, 
+        "Deaths" : 4489, 
+        "Active" : 31668, 
+        "Lat" : 38.9637, 
+        "Long_" : 35.2433, 
+        "Country_Region" : "Turkey", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 22811, 
+        "Recovered" : 8934, 
+        "Deaths" : 679, 
+        "Active" : 13198, 
+        "Lat" : 48.3794, 
+        "Long_" : 31.1656, 
+        "Country_Region" : "Ukraine", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 33170, 
+        "Recovered" : 17097, 
+        "Deaths" : 260, 
+        "Active" : 15813, 
+        "Lat" : 23.424076, 
+        "Long_" : 53.847818, 
+        "Country_Region" : "United Arab Emirates", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 271222, 
+        "Recovered" : 0, 
+        "Deaths" : 38161, 
+        "Active" : 233061, 
+        "Lat" : 55.3781, 
+        "Long_" : -3.436, 
+        "Country_Region" : "United Kingdom", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 816, 
+        "Recovered" : 680, 
+        "Deaths" : 22, 
+        "Active" : 114, 
+        "Lat" : -32.5228, 
+        "Long_" : -55.7658, 
+        "Country_Region" : "Uruguay", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3468, 
+        "Recovered" : 2728, 
+        "Deaths" : 14, 
+        "Active" : 726, 
+        "Lat" : 41.377491, 
+        "Long_" : 64.585262, 
+        "Country_Region" : "Uzbekistan", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1370, 
+        "Recovered" : 302, 
+        "Deaths" : 14, 
+        "Active" : 1054, 
+        "Lat" : 6.4238, 
+        "Long_" : -66.5897, 
+        "Country_Region" : "Venezuela", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 446, 
+        "Recovered" : 368, 
+        "Deaths" : 3, 
+        "Active" : 75, 
+        "Lat" : 31.9522, 
+        "Long_" : 35.2332, 
+        "Country_Region" : "West Bank and Gaza", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9, 
+        "Recovered" : 6, 
+        "Deaths" : 1, 
+        "Active" : 2, 
+        "Lat" : 24.2155, 
+        "Long_" : -12.8858, 
+        "Country_Region" : "Western Sahara", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 283, 
+        "Recovered" : 11, 
+        "Deaths" : 65, 
+        "Active" : 207, 
+        "Lat" : 15.552727, 
+        "Long_" : 48.516388, 
+        "Country_Region" : "Yemen", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1057, 
+        "Recovered" : 779, 
+        "Deaths" : 7, 
+        "Active" : 271, 
+        "Lat" : -13.133897, 
+        "Long_" : 27.849332, 
+        "Country_Region" : "Zambia", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 149, 
+        "Recovered" : 28, 
+        "Deaths" : 4, 
+        "Active" : 117, 
+        "Lat" : -19.015438, 
+        "Long_" : 29.154857, 
+        "Country_Region" : "Zimbabwe", 
+        "Province_State" : null
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 14793, 
+        "Recovered" : 0, 
+        "Deaths" : 710, 
+        "Active" : 14083, 
+        "Lat" : 32.741646, 
+        "Long_" : -89.678696, 
+        "Country_Region" : "US", 
+        "Province_State" : "Mississippi"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 103, 
+        "Recovered" : 0, 
+        "Deaths" : 3, 
+        "Active" : 100, 
+        "Lat" : 37.64894, 
+        "Long_" : -122.665479, 
+        "Country_Region" : "US", 
+        "Province_State" : "Grand Princess"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6338, 
+        "Recovered" : 0, 
+        "Deaths" : 329, 
+        "Active" : 6009, 
+        "Lat" : 35.565342, 
+        "Long_" : -96.928917, 
+        "Country_Region" : "US", 
+        "Province_State" : "Oklahoma"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9236, 
+        "Recovered" : 0, 
+        "Deaths" : 356, 
+        "Active" : 8880, 
+        "Lat" : 39.318523, 
+        "Long_" : -75.507141, 
+        "Country_Region" : "US", 
+        "Province_State" : "Delaware"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 23531, 
+        "Recovered" : 0, 
+        "Deaths" : 1006, 
+        "Active" : 22525, 
+        "Lat" : 45.694454, 
+        "Long_" : -93.900192, 
+        "Country_Region" : "US", 
+        "Province_State" : "Minnesota"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 117455, 
+        "Recovered" : 0, 
+        "Deaths" : 5270, 
+        "Active" : 112185, 
+        "Lat" : 40.349457, 
+        "Long_" : -88.986137, 
+        "Country_Region" : "US", 
+        "Province_State" : "Illinois"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 6777, 
+        "Recovered" : 0, 
+        "Deaths" : 132, 
+        "Active" : 6645, 
+        "Lat" : 34.969704, 
+        "Long_" : -92.373123, 
+        "Country_Region" : "US", 
+        "Province_State" : "Arkansas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 7493, 
+        "Recovered" : 0, 
+        "Deaths" : 344, 
+        "Active" : 7149, 
+        "Lat" : 34.840515, 
+        "Long_" : -106.248482, 
+        "Country_Region" : "US", 
+        "Province_State" : "New Mexico"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 33558, 
+        "Recovered" : 0, 
+        "Deaths" : 2110, 
+        "Active" : 31448, 
+        "Lat" : 39.849426, 
+        "Long_" : -86.258278, 
+        "Country_Region" : "US", 
+        "Province_State" : "Indiana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 38802, 
+        "Recovered" : 0, 
+        "Deaths" : 2767, 
+        "Active" : 36035, 
+        "Lat" : 31.169546, 
+        "Long_" : -91.867805, 
+        "Country_Region" : "US", 
+        "Province_State" : "Louisiana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 60901, 
+        "Recovered" : 0, 
+        "Deaths" : 1619, 
+        "Active" : 59282, 
+        "Lat" : 31.054487, 
+        "Long_" : -97.563461, 
+        "Country_Region" : "US", 
+        "Province_State" : "Texas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 17707, 
+        "Recovered" : 0, 
+        "Deaths" : 568, 
+        "Active" : 17139, 
+        "Lat" : 44.268543, 
+        "Long_" : -89.616508, 
+        "Country_Region" : "US", 
+        "Province_State" : "Wisconsin"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9662, 
+        "Recovered" : 0, 
+        "Deaths" : 215, 
+        "Active" : 9447, 
+        "Lat" : 38.5266, 
+        "Long_" : -96.726486, 
+        "Country_Region" : "US", 
+        "Province_State" : "Kansas"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 41762, 
+        "Recovered" : 0, 
+        "Deaths" : 3868, 
+        "Active" : 37894, 
+        "Lat" : 41.597782, 
+        "Long_" : -72.755371, 
+        "Country_Region" : "US", 
+        "Province_State" : "Connecticut"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 69, 
+        "Recovered" : 0, 
+        "Deaths" : 6, 
+        "Active" : 63, 
+        "Lat" : 18.3358, 
+        "Long_" : -64.8963, 
+        "Country_Region" : "US", 
+        "Province_State" : "Virgin Islands"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 106622, 
+        "Recovered" : 0, 
+        "Deaths" : 4077, 
+        "Active" : 102545, 
+        "Lat" : 36.116203, 
+        "Long_" : -119.681564, 
+        "Country_Region" : "US", 
+        "Province_State" : "California"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 3647, 
+        "Recovered" : 0, 
+        "Deaths" : 132, 
+        "Active" : 3515, 
+        "Lat" : 18.2208, 
+        "Long_" : -66.5901, 
+        "Country_Region" : "US", 
+        "Province_State" : "Puerto Rico"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 45881, 
+        "Recovered" : 0, 
+        "Deaths" : 1987, 
+        "Active" : 43894, 
+        "Lat" : 33.040619, 
+        "Long_" : -83.643074, 
+        "Country_Region" : "US", 
+        "Province_State" : "Georgia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2520, 
+        "Recovered" : 0, 
+        "Deaths" : 59, 
+        "Active" : 2461, 
+        "Lat" : 47.528912, 
+        "Long_" : -99.784012, 
+        "Country_Region" : "US", 
+        "Province_State" : "North Dakota"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 74984, 
+        "Recovered" : 0, 
+        "Deaths" : 5464, 
+        "Active" : 69520, 
+        "Lat" : 40.590752, 
+        "Long_" : -77.209755, 
+        "Country_Region" : "US", 
+        "Province_State" : "Pennsylvania"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 1951, 
+        "Recovered" : 0, 
+        "Deaths" : 74, 
+        "Active" : 1877, 
+        "Lat" : 38.491226, 
+        "Long_" : -80.954453, 
+        "Country_Region" : "US", 
+        "Province_State" : "West Virginia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 429, 
+        "Recovered" : 0, 
+        "Deaths" : 10, 
+        "Active" : 419, 
+        "Lat" : 61.370716, 
+        "Long_" : -152.404419, 
+        "Country_Region" : "US", 
+        "Province_State" : "Alaska"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 22063, 
+        "Recovered" : 0, 
+        "Deaths" : 361, 
+        "Active" : 21702, 
+        "Lat" : 35.747845, 
+        "Long_" : -86.692345, 
+        "Country_Region" : "US", 
+        "Province_State" : "Tennessee"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 13084, 
+        "Recovered" : 0, 
+        "Deaths" : 730, 
+        "Active" : 12354, 
+        "Lat" : 38.456085, 
+        "Long_" : -92.288368, 
+        "Country_Region" : "US", 
+        "Province_State" : "Missouri"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4866, 
+        "Recovered" : 0, 
+        "Deaths" : 59, 
+        "Active" : 4807, 
+        "Lat" : 44.299782, 
+        "Long_" : -99.438828, 
+        "Country_Region" : "US", 
+        "Province_State" : "South Dakota"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 25598, 
+        "Recovered" : 0, 
+        "Deaths" : 1436, 
+        "Active" : 24162, 
+        "Lat" : 39.059811, 
+        "Long_" : -105.311104, 
+        "Country_Region" : "US", 
+        "Province_State" : "Colorado"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 158844, 
+        "Recovered" : 0, 
+        "Deaths" : 11531, 
+        "Active" : 147313, 
+        "Lat" : 40.298904, 
+        "Long_" : -74.521011, 
+        "Country_Region" : "US", 
+        "Province_State" : "New Jersey"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 172, 
+        "Recovered" : 0, 
+        "Deaths" : 5, 
+        "Active" : 167, 
+        "Lat" : 13.4443, 
+        "Long_" : 144.7937, 
+        "Country_Region" : "US", 
+        "Province_State" : "Guam"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 21071, 
+        "Recovered" : 0, 
+        "Deaths" : 1111, 
+        "Active" : 19960, 
+        "Lat" : 47.400902, 
+        "Long_" : -121.490494, 
+        "Country_Region" : "US", 
+        "Province_State" : "Washington"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 368284, 
+        "Recovered" : 0, 
+        "Deaths" : 29646, 
+        "Active" : 338638, 
+        "Lat" : 42.165726, 
+        "Long_" : -74.948051, 
+        "Country_Region" : "US", 
+        "Province_State" : "New York"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8376, 
+        "Recovered" : 0, 
+        "Deaths" : 406, 
+        "Active" : 7970, 
+        "Lat" : 38.313515, 
+        "Long_" : -117.055374, 
+        "Country_Region" : "US", 
+        "Province_State" : "Nevada"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 22, 
+        "Recovered" : 0, 
+        "Deaths" : 2, 
+        "Active" : 20, 
+        "Lat" : 15.0979, 
+        "Long_" : 145.6739, 
+        "Country_Region" : "US", 
+        "Province_State" : "Northern Mariana Islands"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 50988, 
+        "Recovered" : 0, 
+        "Deaths" : 2466, 
+        "Active" : 48522, 
+        "Lat" : 39.063946, 
+        "Long_" : -76.802101, 
+        "Country_Region" : "US", 
+        "Province_State" : "Maryland"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2770, 
+        "Recovered" : 0, 
+        "Deaths" : 82, 
+        "Active" : 2688, 
+        "Lat" : 44.240459, 
+        "Long_" : -114.478828, 
+        "Country_Region" : "US", 
+        "Province_State" : "Idaho"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 891, 
+        "Recovered" : 0, 
+        "Deaths" : 15, 
+        "Active" : 876, 
+        "Lat" : 42.755966, 
+        "Long_" : -107.30249, 
+        "Country_Region" : "US", 
+        "Province_State" : "Wyoming"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 18472, 
+        "Recovered" : 0, 
+        "Deaths" : 886, 
+        "Active" : 17586, 
+        "Lat" : 33.729759, 
+        "Long_" : -111.431221, 
+        "Country_Region" : "US", 
+        "Province_State" : "Arizona"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 18957, 
+        "Recovered" : 0, 
+        "Deaths" : 524, 
+        "Active" : 18433, 
+        "Lat" : 42.011539, 
+        "Long_" : -93.210526, 
+        "Country_Region" : "US", 
+        "Province_State" : "Iowa"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 56621, 
+        "Recovered" : 0, 
+        "Deaths" : 5406, 
+        "Active" : 51215, 
+        "Lat" : 43.326618, 
+        "Long_" : -84.536095, 
+        "Country_Region" : "US", 
+        "Province_State" : "Michigan"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9264, 
+        "Recovered" : 0, 
+        "Deaths" : 107, 
+        "Active" : 9157, 
+        "Lat" : 40.150032, 
+        "Long_" : -111.862434, 
+        "Country_Region" : "US", 
+        "Province_State" : "Utah"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 42533, 
+        "Recovered" : 0, 
+        "Deaths" : 1358, 
+        "Active" : 41175, 
+        "Lat" : 37.769337, 
+        "Long_" : -78.169968, 
+        "Country_Region" : "US", 
+        "Province_State" : "Virginia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4131, 
+        "Recovered" : 0, 
+        "Deaths" : 151, 
+        "Active" : 3980, 
+        "Lat" : 44.572021, 
+        "Long_" : -122.070938, 
+        "Country_Region" : "US", 
+        "Province_State" : "Oregon"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 493, 
+        "Recovered" : 0, 
+        "Deaths" : 17, 
+        "Active" : 476, 
+        "Lat" : 46.921925, 
+        "Long_" : -110.454353, 
+        "Country_Region" : "US", 
+        "Province_State" : "Montana"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 4492, 
+        "Recovered" : 0, 
+        "Deaths" : 238, 
+        "Active" : 4254, 
+        "Lat" : 43.452492, 
+        "Long_" : -71.563896, 
+        "Country_Region" : "US", 
+        "Province_State" : "New Hampshire"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 95512, 
+        "Recovered" : 0, 
+        "Deaths" : 6718, 
+        "Active" : 88794, 
+        "Lat" : 42.230171, 
+        "Long_" : -71.530106, 
+        "Country_Region" : "US", 
+        "Province_State" : "Massachusetts"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 11131, 
+        "Recovered" : 0, 
+        "Deaths" : 483, 
+        "Active" : 10648, 
+        "Lat" : 33.856892, 
+        "Long_" : -80.945007, 
+        "Country_Region" : "US", 
+        "Province_State" : "South Carolina"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 975, 
+        "Recovered" : 0, 
+        "Deaths" : 55, 
+        "Active" : 920, 
+        "Lat" : 44.045876, 
+        "Long_" : -72.710686, 
+        "Country_Region" : "US", 
+        "Province_State" : "Vermont"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 54497, 
+        "Recovered" : 0, 
+        "Deaths" : 2413, 
+        "Active" : 52084, 
+        "Lat" : 27.766279, 
+        "Long_" : -81.686783, 
+        "Country_Region" : "US", 
+        "Province_State" : "Florida"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 649, 
+        "Recovered" : 0, 
+        "Deaths" : 17, 
+        "Active" : 632, 
+        "Lat" : 21.094318, 
+        "Long_" : -157.498337, 
+        "Country_Region" : "US", 
+        "Province_State" : "Hawaii"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 9464, 
+        "Recovered" : 0, 
+        "Deaths" : 418, 
+        "Active" : 9046, 
+        "Lat" : 37.66814, 
+        "Long_" : -84.670067, 
+        "Country_Region" : "US", 
+        "Province_State" : "Kentucky"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 14635, 
+        "Recovered" : 0, 
+        "Deaths" : 693, 
+        "Active" : 13942, 
+        "Lat" : 41.680893, 
+        "Long_" : -71.51178, 
+        "Country_Region" : "US", 
+        "Province_State" : "Rhode Island"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 13648, 
+        "Recovered" : 0, 
+        "Deaths" : 164, 
+        "Active" : 13484, 
+        "Lat" : 41.12537, 
+        "Long_" : -98.268082, 
+        "Country_Region" : "US", 
+        "Province_State" : "Nebraska"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 34566, 
+        "Recovered" : 0, 
+        "Deaths" : 2131, 
+        "Active" : 32435, 
+        "Lat" : 40.388783, 
+        "Long_" : -82.764915, 
+        "Country_Region" : "US", 
+        "Province_State" : "Ohio"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 17031, 
+        "Recovered" : 0, 
+        "Deaths" : 610, 
+        "Active" : 16421, 
+        "Lat" : 32.3182, 
+        "Long_" : -86.9023, 
+        "Country_Region" : "US", 
+        "Province_State" : "Alabama"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 26885, 
+        "Recovered" : 0, 
+        "Deaths" : 919, 
+        "Active" : 25966, 
+        "Lat" : 35.630066, 
+        "Long_" : -79.806419, 
+        "Country_Region" : "US", 
+        "Province_State" : "North Carolina"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 8538, 
+        "Recovered" : 0, 
+        "Deaths" : 460, 
+        "Active" : 8078, 
+        "Lat" : 38.897438, 
+        "Long_" : -77.026817, 
+        "Country_Region" : "US", 
+        "Province_State" : "District of Columbia"
+      }
+    }, 
+    {
+      "attributes" : {
+        "Confirmed" : 2226, 
+        "Recovered" : 0, 
+        "Deaths" : 85, 
+        "Active" : 2141, 
+        "Lat" : 44.693947, 
+        "Long_" : -69.381927, 
+        "Country_Region" : "US", 
+        "Province_State" : "Maine"
+      }
+    }
+  ]
+}
