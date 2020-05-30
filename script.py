@@ -54,11 +54,6 @@ def main():
     transform *= Affine.translation(lons[0],lats[0])
     echo('initialization done')
 
-    for cell in cells:
-        r, c = cell2rc(cell)
-        grid[r,c,0] = 1
-
-    """
     # fill in the hotspot map
     feats = getFeatures()
     for feat in feats:
@@ -73,7 +68,6 @@ def main():
         if cell in cells:
             utils.fill_hotspot(grid, cell2rc(cell), confirmed)
     echo('grid filled')
-    """
 
     # write to tiff file
     tiff = rasterio.open(

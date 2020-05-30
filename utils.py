@@ -84,7 +84,7 @@ def fn_inv_deg_sq(start, targ, val):
 
     # dist in mdeg
     dist = math.sqrt(sum([((start[i]-targ[i])*RES)**2 for i in range(2)]))/1000
-    return val/(dist**2)
+    return val/(dist**3)
 
 def lim_inv_deg_sq(val):
     return HEATMAP_CUTOFF*math.sqrt(val)
