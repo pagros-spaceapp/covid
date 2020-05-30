@@ -7,6 +7,7 @@ RES = 1000
 HEATMAP_CUTOFF = 1
 
 def deg2cell(coord):
+    # convert lon to pos for easier calc
     return tuple([int(i*1000/RES) for i in coord])
 
 def get_bounds2cell(points):
@@ -28,13 +29,30 @@ def get_bounds2cell(points):
     lons, lats = [(mins[i], maxs[i]) for i in range(2)]
     return pts, lons, lats
 
+def split_polygon(rawpts):
+    # split into polygons
+    pts_set = []
+    all_pts = set({})
+    for pt in rawpts:
+        if not pts_set: pts_set.append([])
+        pts_set[-1].append(pt)
+
+        if pt in all_pts:
+            pts_set.append([])
+        all_pts.add(pt)
+    return pts_set
+
 def mark_cells(pts, lons):
     """ polygon fill algo """
     cells = []
     minlon, maxlon = lons
 
+    if len(pts) == 1:
+        return pts
+
     for lon in range(minlon, maxlon+1):
         marks = []
+
         for i in range(len(pts)):
             a, b = pts[-i], pts[1-i]
 
@@ -45,14 +63,20 @@ def mark_cells(pts, lons):
 
             if marks and marks[-1]==v: continue
             marks.append(v)
+        if not marks: continue
 
         marks.sort()
+        cells += [(lon, i) for i in range(marks[0], marks[-1]+1)]
+
+        """
+        TODO: failed because of fat pixels
         cells.append((lon, marks[0]))
         for i in range(1, len(marks)):
             a, b = marks[i-1], marks[i]
             cells.append((lon, b))
             if i%2:
                 cells += [(lon, j) for j in range(a+1,b+1)]
+        """
     return set(cells)
 
 def fn_inv_deg_sq(start, targ, val):
