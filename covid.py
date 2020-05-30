@@ -7,7 +7,7 @@ import rasterio
 import shapefile
 import numpy as np
 
-file_covid = 'covid.json'
+file_covid = 'data/covid.json'
 file_gadm = 'data/gadm36_USA_0'
 
 Affine = rasterio.transform.Affine
@@ -33,9 +33,10 @@ def getActive():
 
     # mark active cells
     active = []
-    for polygon in polygons:
+    for i in range(len(polygons)):
+        if not i%300: echo(f"processing polygon {i}")
+        polygon = polygons[i]
         active += utils.mark_cells(polygon, lons)
-    print(lons, lats)
     return active, lons, lats
 
 def getFeatures():
@@ -56,18 +57,21 @@ def main():
 
     # fill in the hotspot map
     feats = getFeatures()
-    for feat in feats:
+    processed_cnt = 0
+    for i in range(len(feats)):
+        feat = feats[i]
         attrs = feat['attributes']
         lat, lon = attrs['Lat'], attrs['Long_']
         if not lon or not lat: continue
+        if not i%20: echo(f"processing up till {i}")
 
         confirmed, recovered =  attrs['Confirmed'], attrs['Recovered']
         deaths, active = attrs['Deaths'], attrs['Active']
         cell = utils.deg2cell((lon,lat))
-
         if cell in cells:
+            processed_cnt += 1
             utils.fill_hotspot(grid, cell2rc(cell), confirmed)
-    echo('grid filled')
+    echo(f'grid filled with {processed_cnt} pts')
 
     # write to tiff file
     tiff = rasterio.open(

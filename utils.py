@@ -1,9 +1,10 @@
 import math
 
 # resolution of tif file (mdeg)
-RES = 1000
+RES = 100
 
 # when to stop the algo
+HEATMAP_E = 2
 HEATMAP_CUTOFF = 1
 
 def deg2cell(coord):
@@ -79,19 +80,20 @@ def mark_cells(pts, lons):
         """
     return set(cells)
 
-def fn_inv_deg_sq(start, targ, val):
-    if start==targ: return val
-
-    # dist in mdeg
-    dist = math.sqrt(sum([((start[i]-targ[i])*RES)**2 for i in range(2)]))/1000
-    return val/(dist**3)
-
-def lim_inv_deg_sq(val):
-    return HEATMAP_CUTOFF*math.sqrt(val)
-
 def fill_hotspot(grid, start, val):
+    e = HEATMAP_E
+    def fn_pow_e(start, targ, val):
+        if start==targ: return val
+
+        # dist in mdeg
+        dist = math.sqrt(sum([((start[i]-targ[i])*RES)**2 for i in range(2)]))/1000
+        return val*(e**(-1*dist))
+
+    def lim_pow_e(val):
+        return math.log(val/HEATMAP_CUTOFF, e)*1000/RES
+
     W, H, _ = grid.shape
-    diff = lim_inv_deg_sq(val)
+    diff = lim_pow_e(val)
 
     # end is exclusive
     minr, maxr = int(max(start[0]-diff, 0)), int(min(start[0]+diff+1, W))
@@ -99,4 +101,4 @@ def fill_hotspot(grid, start, val):
 
     for r in range(minr, maxr):
         for c in range(minc, maxc):
-            grid[r][c] += int(fn_inv_deg_sq(start, (r,c), val))
+            grid[r][c] += int(fn_pow_e(start, (r,c), val))
