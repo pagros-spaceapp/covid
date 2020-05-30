@@ -1,3 +1,4 @@
+import time
 import heatmap
 import numpy as np
 
@@ -12,9 +13,9 @@ def main():
         for line in lines:
             parts = line.split(',')
             if parts[0]:
-                res[parts[0].strip()] = sum([float(i) for i in parts[1:]])
+                data[parts[0].strip()] = sum([float(i) for i in parts[1:]])
 
-    heatmap.generateShapes(file_gadm, data, 'gdp.tif', np.float32, lambda x:x[3])
+    heatmap.generateShapes(file_gadm, data, 'gdp.tif', np.float32)
 
 if __name__ == '__main__':
     stime = time.time()

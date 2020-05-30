@@ -75,7 +75,7 @@ def generateHeatmap(boundaryFile, coordval, outfile=utils.FILE_TIFF,
         val = coordval[key]
         cell = utils.deg2cell(key)
         if cell in active:
-            echo('processing {key} = {val}')
+            echo(f'processing {key} = {val}')
             processed_cnt += 1
             utils.fill_hotspot(grid, cell2rc(cell), val)
     echo(f'total processed {processed_cnt}')
