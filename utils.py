@@ -1,11 +1,17 @@
 import math
 
+import rasterio
+import numpy as np
+
 # resolution of tif file (mdeg)
 RES = 100
+FILE_TIFF = 'out.tif'
 
 # when to stop the algo
 HEATMAP_E = 2
 HEATMAP_CUTOFF = 1
+
+Affine = rasterio.transform.Affine
 
 def deg2cell(coord):
     # convert lon to pos for easier calc
@@ -30,17 +36,15 @@ def get_bounds2cell(points):
     lons, lats = [(mins[i], maxs[i]) for i in range(2)]
     return pts, lons, lats
 
-def split_polygon(rawpts):
-    # split into polygons
-    pts_set = []
-    all_pts = set({})
-    for pt in rawpts:
-        if not pts_set: pts_set.append([])
-        pts_set[-1].append(pt)
+def split_polygon(shape):
+    parts = shape.parts
+    points = shape.points
 
-        if pt in all_pts:
-            pts_set.append([])
-        all_pts.add(pt)
+    pts_set = []
+    for i in range(1, len(parts)):
+        pts_set.append(points[parts[i-1]:parts[i]-1])
+    pts_set.append(points[parts[-1]:-1])
+
     return pts_set
 
 def mark_cells(pts, lons):
@@ -80,6 +84,29 @@ def mark_cells(pts, lons):
         """
     return set(cells)
 
+# NOTE: grid and stuff
+def init_grid(lons, lats, dtype=np.uint32, nodata=0):
+    grid = np.full((lats[1]-lats[0]+1, lons[1]-lons[0]+1, 1), nodata, dtype)
+    transform = Affine.scale(RES/1000)
+    transform *= Affine.translation(lons[0],lats[0])
+    return  grid, transform, grid[0, 0, 0]
+
+def write_tiff(outfile, grid, transform, nodata=None):
+    # write to tiff file
+    tiff = rasterio.open(
+         outfile, 'w',
+         driver='GTiff',
+         height=grid.shape[0],
+         width=grid.shape[1],
+         count=1, dtype=grid.dtype,
+         crs='+proj=latlong',
+         transform=transform,
+         nodata=nodata
+    )
+    tiff.write(grid[:,:,0], 1)
+    tiff.close()
+
+# NOTE: filling mechanism
 def fill_hotspot(grid, start, val):
     e = HEATMAP_E
     def fn_pow_e(start, targ, val):
