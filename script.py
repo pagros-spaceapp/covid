@@ -3,9 +3,6 @@ import utils
 import json
 import shapefile
 
-# resolution of tif file (mdeg)
-RES = 100
-
 file_covid = 'covid.json'
 file_gadm = 'data/gadm36_USA_0'
 
@@ -18,6 +15,7 @@ features = data['features']
 
 # convert to mdeg
 sf = shapefile.Reader(file_gadm)
-pts, lons, lats = utils.get_bounds2mdeg(sf.shape(0).points)
+pts, bnds0, bnds1 = utils.get_bounds2cell(sf.shape(0).points)
+echo('reading done')
 
-print(len(pts), lons, lats)
+utils.mark_cells(pts, bnds0)
