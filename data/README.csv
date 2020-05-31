@@ -1,10 +1,10 @@
 variable_name,file type,file/tab name,data column name,description,source link,source study,study date
-PSI Index,.tiff,emissions,Aerosol particles,,https://neo.sci.gsfc.nasa.gov/view.php?datasetId=MODAL2_M_AER_RA,NASA Earth Observations,20-Apr
-Temperature (day),.tiff,day_temp,daytime,,https://neo.sci.gsfc.nasa.gov/servlet/RenderData?si=1786979&cs=rgb&format=FLOAT.TIFF&width=3600&height=1800,NASA Earth Observations,20-Apr
-Temperature (night),.tiff,night_temp,tmep,,https://neo.sci.gsfc.nasa.gov/servlet/RenderData?si=1786979&cs=rgb&format=FLOAT.TIFF&width=3600&height=1800,NASA Earth Observations,20-Apr
-Night lights,.tiff,night_light,Earth at Night: Flat Maps,,https://earthobservatory.nasa.gov/features/NightLights,Earth Observatory NAS,2016
-Vegeation,.tiff,Vegetation,VEGETATION INDEX [NDVI],,https://neo.sci.gsfc.nasa.gov/view.php?datasetId=MOD_NDVI_M,NASA Earth Observations,20-Apr
-Cloud,.tiff,cloud_cover,Cloud fraction,,https://neo.sci.gsfc.nasa.gov/view.php?datasetId=MODAL2_M_CLD_FR,NASA Earth Observations,20-Apr
+PSI Index,.tif,emissions,Aerosol particles,,https://neo.sci.gsfc.nasa.gov/view.php?datasetId=MODAL2_M_AER_RA,NASA Earth Observations,20-Apr
+Temperature (day),.tif,day_temp,daytime,,https://neo.sci.gsfc.nasa.gov/servlet/RenderData?si=1786979&cs=rgb&format=FLOAT.TIFF&width=3600&height=1800,NASA Earth Observations,20-Apr
+Temperature (night),.tif,night_temp,tmep,,https://neo.sci.gsfc.nasa.gov/servlet/RenderData?si=1786979&cs=rgb&format=FLOAT.TIFF&width=3600&height=1800,NASA Earth Observations,20-Apr
+Night lights,.tif,night_light,Earth at Night: Flat Maps,,https://earthobservatory.nasa.gov/features/NightLights,Earth Observatory NAS,2016
+Vegeation,.tif,Vegetation,VEGETATION INDEX [NDVI],,https://neo.sci.gsfc.nasa.gov/view.php?datasetId=MOD_NDVI_M,NASA Earth Observations,20-Apr
+Cloud,.tif,cloud_cover,Cloud fraction,,https://neo.sci.gsfc.nasa.gov/view.php?datasetId=MODAL2_M_CLD_FR,NASA Earth Observations,20-Apr
 pct_smokers,.csv,smokers,% Smokers,Percentage of adults who are current smokers.,https://www.countyhealthrankings.org/sites/default/files/media/document/2020%20County%20Health%20Rankings%20Data%20-%20v1.xlsx,County Health Rankings: 2020 Measures,2020
 pct_obesity,.csv,obese,% Adults with Obesity,Percentage of the adult population (age 20 and older) that reports a body mass index (BMI) greater than or equal to 30 kg/m2.,https://www.countyhealthrankings.org/sites/default/files/media/document/2020%20County%20Health%20Rankings%20Data%20-%20v1.xlsx,County Health Rankings: 2020 Measures,2020
 pct_uninsured,.csv,uninsured,% Uninsured,Percentage of population under age 65 without health insurance.,https://www.countyhealthrankings.org/sites/default/files/media/document/2020%20County%20Health%20Rankings%20Data%20-%20v1.xlsx,County Health Rankings: 2020 Measures,2020
