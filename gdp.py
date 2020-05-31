@@ -3,7 +3,7 @@ import heatmap
 import numpy as np
 
 file_data = 'data/gdp.csv'
-file_gadm = 'data/gadm36_USA_1'
+file_gadm = 'data/gadm36_USA_2'
 
 def main():
     data = {}
@@ -19,13 +19,13 @@ def main():
 
             # clean up the name, and convert rest to float
             name = parts[0].strip()
-            rest = [float(i) for i parts[1:]]
+            rest = [float(i) for i in parts[1:]]
 
             # set the val to the sum of all the quarters
             if name:
                 data[name] = sum(rest)
 
-    heatmap.generateShapes(file_gadm, data, 'gdp.tif', np.float32)
+    heatmap.generateShapes(file_gadm, data, 'gdp.tif', np.float32, recordfn=lambda x:x[6])
 
 if __name__ == '__main__':
     stime = time.time()

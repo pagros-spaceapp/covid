@@ -99,7 +99,7 @@ def write_tiff(outfile, grid, transform, nodata=None):
          height=grid.shape[0],
          width=grid.shape[1],
          count=1, dtype=grid.dtype,
-         crs='+proj=latlong',
+         crs='+init=epsg:4236',
          transform=transform,
          nodata=nodata
     )
