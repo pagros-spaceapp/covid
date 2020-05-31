@@ -8,8 +8,9 @@ RES = 100
 FILE_TIFF = 'out.tif'
 
 # when to stop the algo
-HEATMAP_E = 2
+HEATMAP_E = math.e
 HEATMAP_CUTOFF = 1
+HEATMAP_DECAY = -0.3
 
 Affine = rasterio.transform.Affine
 
@@ -85,11 +86,20 @@ def mark_cells(pts, lons):
     return set(cells)
 
 # NOTE: grid and stuff
-def init_grid(lons, lats, dtype=np.uint32, nodata=0):
-    grid = np.full((lats[1]-lats[0]+1, lons[1]-lons[0]+1, 1), nodata, dtype)
+def init_grid(lons, lats, dtype=np.uint32, nodata=0, cells=[]):
+    grid = np.full((lats[1]-lats[0]+1, lons[1]-lons[0]+1), nodata, dtype)
+    mask = np.ones(grid.shape)
+    nodata = grid[0,0]
+
+    if cells:
+        for lon, lat in cells:
+            c, r = lon-lons[0], lat-lats[0]
+            mask[r,c] = 0
+
+    print(mask==1)
     transform = Affine.scale(RES/1000)
     transform *= Affine.translation(lons[0],lats[0])
-    return  grid, transform, grid[0, 0, 0]
+    return np.ma.array(grid,mask=(mask==1)), transform, nodata
 
 def write_tiff(outfile, grid, transform, nodata=None):
     # write to tiff file
@@ -103,7 +113,7 @@ def write_tiff(outfile, grid, transform, nodata=None):
          transform=transform,
          nodata=nodata
     )
-    tiff.write(grid[:,:,0], 1)
+    tiff.write(grid[:,:], 1)
     tiff.close()
 
 # NOTE: filling mechanism
@@ -114,12 +124,12 @@ def fill_hotspot(grid, start, val):
 
         # dist in mdeg
         dist = math.sqrt(sum([((start[i]-targ[i])*RES)**2 for i in range(2)]))/1000
-        return val*(e**(-1*dist))
+        return val*(e**(HEATMAP_DECAY*dist))
 
     def lim_pow_e(val):
         return math.log(val/HEATMAP_CUTOFF, e)*1000/RES
 
-    W, H, _ = grid.shape
+    W, H = grid.shape
     diff = lim_pow_e(val)
 
     # end is exclusive
@@ -128,4 +138,4 @@ def fill_hotspot(grid, start, val):
 
     for r in range(minr, maxr):
         for c in range(minc, maxc):
-            grid[r][c] += int(fn_pow_e(start, (r,c), val))
+            grid[r,c] += int(fn_pow_e(start, (r,c), val))

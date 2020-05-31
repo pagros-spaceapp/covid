@@ -25,7 +25,7 @@ def main():
         coordval[(lon,lat)] = confirmed
         keyval[state] = confirmed
 
-    heatmap.generateShapes(file_gadm1, keyval, 'covid_shape.tif')
+    # heatmap.generateShapes(file_gadm1, keyval, 'covid_shape.tif')
     heatmap.generateHeatmap(file_gadm0, coordval, 'covid_hotspot.tif')
 
 if __name__ == '__main__':

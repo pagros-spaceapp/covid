@@ -68,7 +68,7 @@ def generateHeatmap(boundaryFile, coordval, outfile=utils.FILE_TIFF,
         echo('ERR processing boundary, stopping here')
         return
 
-    grid, transform, nodata = utils.init_grid(lons, lats, dtype, nodata)
+    grid, transform, nodata = utils.init_grid(lons, lats, dtype, nodata, active)
     for key in coordval:
         if len(key)!=2 or not key[0] or not key[1]: continue
 
