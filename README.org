@@ -8,3 +8,10 @@
    - utils.py :: the math parts and the polygon dealing parts
    - covid.py :: example for covid (both hotspot and shapes)
    - gdp.py :: example for gdb (by state)
+
+** py wheels
+    - go to [[https://www.lfd.uci.edu/~gohlke/pythonlibs/]]
+    - download these 2 files (ctrl+f)
+        - rasterio-1.1.4-cp37-cp37m-win_amd64.whl
+        - GDAL-3.0.4-cp37-cp37m-win_amd64.whl
+    - then run pip install `[path-to-file]`
